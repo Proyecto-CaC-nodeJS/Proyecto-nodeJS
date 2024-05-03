@@ -1,0 +1,136 @@
+ /*  Estilos para todos las navbars  */
+
+/* Estilo para el navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left, #3f0088, #000000);
+    padding: 10px 20px;
+}
+
+/* Estilo para el logo */
+.navbar-left img {
+    height: 60px;
+}
+
+/* Estilo para los enlaces a la derecha con texto contorneado */
+.navbar-right a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #7512e6; /* Contorno alrededor del texto (color y ancho) */
+    color: #d0adf8; /* Color del interior del texto */
+    transition: color 0.3s; /* Transición suave de color al pasar el mouse */
+}
+
+/* Cambiar el color y el contorno al pasar el mouse por encima de "INICIO" */
+.navbar-right a:nth-child(1):hover {
+    -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
+    color: #842cff; /* Color del interior del texto */
+}
+
+/* Cambiar el color y el contorno al pasar el mouse por encima de "CS Go" */
+.navbar-right a:nth-child(2):hover {
+    -webkit-text-stroke: 0.2px #916100; /* Contorno alrededor del texto (color y ancho) */
+    color: #ffd500; /* Color del interior del texto */
+}
+
+/* Cambiar el color y el contorno al pasar el mouse por encima de "Valorant" */
+.navbar-right a:nth-child(3):hover {
+    -webkit-text-stroke: 0.2px #7e1720; /* Contorno alrededor del texto (color y ancho) */
+    color: #e10013; /* Color del interior del texto */
+}
+
+/* Cambiar el color y el contorno al pasar el mouse por encima de "Left" */
+.navbar-right a:nth-child(4):hover {
+    -webkit-text-stroke: 0.2px #004600; /* Contorno alrededor del texto (color y ancho) */
+    color: #00a00d; /* Color del interior del texto */
+}
+
+/* Cambiar el color y el contorno al pasar el mouse por encima de "Contacto" */
+.navbar-right a:nth-child(5):hover {
+    -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
+    color: #842cff; /* Color del interior del texto */
+}
+
+/* Estilo para el botón hamburguesa */
+.mobile-menu-button {
+    display: none; /* Ocultar el botón en pantallas grandes */
+    cursor: pointer;
+    padding: 10px;
+    background: #000000; /* Cambia el color según tus preferencias */
+    color: #fff;
+}
+
+.mobile-menu-button .bar {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+}
+
+/* Estilo para el menú desplegable */
+.mobile-menu {
+    display: none; /* Ocultar el menú en pantallas grandes */
+    background: linear-gradient(#000000, #7512e6, #000000);
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    z-index: 1; /* Asegura que el menú esté en una capa por encima del contenido */
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu a:nth-child(1){
+    -webkit-text-stroke: 0.7px #130031; /* Contorno alrededor del texto (color y ancho) */
+    color: #842cff; /* Color del interior del texto */
+}
+
+.mobile-menu a:nth-child(2){
+    -webkit-text-stroke: 0.7px #ffae00; /* Contorno alrededor del texto (color y ancho) */
+    color: #f2ff00; /* Color del interior del texto */
+}
+
+.mobile-menu a:nth-child(3){
+    -webkit-text-stroke: 0.7px #960000; /* Contorno alrededor del texto (color y ancho) */
+    color: #ff2a2a; /* Color del interior del texto */
+}
+
+.mobile-menu a:nth-child(4){
+    -webkit-text-stroke: 0.2px #0f7e00; /* Contorno alrededor del texto (color y ancho) */
+    color: #34be02; /* Color del interior del texto */
+}
+
+.mobile-menu a:nth-child(5){
+    -webkit-text-stroke: 0.2px #400085; /* Contorno alrededor del texto (color y ancho) */
+    color: #8b1fff; /* Color del interior del texto */
+}
+
+/* Estilo para mostrar u ocultar el menú desplegable */
+@media screen and (max-width: 992px) {
+    .navbar-right {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .mobile-menu.active {
+        display: block;
+        transform: translateY(0);
+    }
+
+    .content.menu-opened {
+        margin-top: 200px;
+    }
+}

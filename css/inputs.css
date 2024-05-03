@@ -1,0 +1,9 @@
+ /*  Estilos para todos los inputs  */
+
+input:focus{
+    outline: 1px solid #7900ff;
+}
+
+input:focus + .frm-label{
+    margin-top: -110px;
+}
