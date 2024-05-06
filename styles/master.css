@@ -1,0 +1,15 @@
+/* Importar archivos CSS dentro de master.css
+   Carga todos los estilos  */
+
+@import url('../styles/html.css');
+@import url('../styles/imports.css');
+@import url('../styles/fonts.css');
+@import url('../styles/body.css');
+@import url('../styles/header.css');
+@import url('../styles/main.css');
+@import url('../styles/section.css');
+@import url('../styles/navbar.css');
+@import url('../styles/forms.css');
+@import url('../styles/inputs.css');
+@import url('../styles/buttons.css');
+@import url('../styles/footer.css');
