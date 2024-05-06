@@ -1,0 +1,14 @@
+Silvio
+------
+- verificar que los inputs esten funcionando correctamente
+- eliminar todo lo que esta rameado en los archivos HTML, CSS, JS
+- agregar menu de redes en todas las demas paginas
+    acceso
+    contacto
+    recuperacion de clave
+    recuperacion de usuario
+    creacion de cuenta
+    registro
+- centrae boton de enviar en acceso
+- que no se redimensionen los forms cuando se activa el hovere de los botones
+- terminar mi pagina basandome en la pagina de sega
