@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return esValido;
   }
 
+  /*
   // Función para validar el formato del correo electrónico
   function validarEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -69,4 +70,5 @@ document.addEventListener("DOMContentLoaded", function () {
     const telefonoRegex = /^\d{10}$/; // Asumiendo que el teléfono debe tener 10 dígitos
     return telefonoRegex.test(telefono);
   }
+  */
 });

@@ -18,6 +18,10 @@
     margin-left: 1px;
 }
 
+.btn-send {
+    float: none;
+}
+
 #usuario, #password {
     display: block;
     width: 100%; 
