@@ -19,7 +19,8 @@
 }
 
 .btn-send {
-    float: none;
+    display: block;
+    text-align: center;
 }
 
 #usuario, #password {

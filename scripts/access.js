@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = document.querySelector("#password");
 
     formulario.addEventListener("submit", function (event) {
-        event.preventDefault();
-        
-        if (validarFormulario()) {
+      event.preventDefault();
+      
+      if (validarFormulario()) {
         // Si el formulario es válido, puedes enviar los datos
         console.log("Formulario válido. Enviando datos...");
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Hace un reset de los campos
         this.reset();
-        }
+      }
     });
 
   function validarFormulario() {
