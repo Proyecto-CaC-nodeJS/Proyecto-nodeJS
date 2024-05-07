@@ -1,7 +1,6 @@
 Silvio
 ------
 - verificar que los inputs esten funcionando correctamente
-- eliminar todo lo que esta rameado en los archivos HTML, CSS, JS
 - centrar boton de enviar en acceso
 - que no se redimensione los forms cuando se activa el hovere de los botones
 - terminar mi pagina basandome en la pagina de sega
