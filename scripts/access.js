@@ -1,26 +1,3 @@
-/*
-var inputs = document.getElementsByTagName('input');
-for (var i = 0; i < inputs.length; i++){
-    inputs[i].addEventListener('keyup', function(){
-        if(this.value.length>=1){
-            this.nextElementSibling.classList.add('set');
-        } 
-        else{
-            this.nextElementSibling.classList.remove('set');
-        }
-    });
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    const mobileMenuButton = document.querySelector(".mobile-menu-button");
-    const mobileMenu = document.querySelector(".mobile-menu");
-
-    mobileMenuButton.addEventListener("click", function () {
-        mobileMenu.classList.toggle("active");
-    });
-});
-*/
-
 /* Validaciones del formulario acceso */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -28,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const usuario = document.querySelector("#usuario");
     const password = document.querySelector("#password");
 
-
     formulario.addEventListener("submit", function (event) {
-        event.preventDefault();
+      event.preventDefault();
+      
       if (validarFormulario()) {
         // Si el formulario es válido, puedes enviar los datos
         console.log("Formulario válido. Enviando datos...");
@@ -39,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
         alert('¡ Datos enviados correctamente !');
 
         // Hace un reset de los campos
-        this.reset(); 
+        this.reset();
       }
-  });
+    });
 
   function validarFormulario() {
       const porFavorIngrese = "Por favor, ingrese "; 
@@ -50,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Valida el campo usuario
       if (usuario.value.trim() === "") {
         esValido = false;
-        console.log(porFavorIngrese + "su usuario.");
+        alert(porFavorIngrese + "su usuario.");
         usuario.focus();
       }
 
@@ -61,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         password.focus();
       }
 
-      return esValido;
+    return esValido;
   }
+
 });

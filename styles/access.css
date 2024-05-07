@@ -1,6 +1,6 @@
- /*  Estilos para accesos  */
+/*  Estilos para accesos  */
 
- .frm-label {
+.frm-label {
     padding-left: 15px;
     position: absolute;
     margin-top: -60px;
@@ -16,6 +16,11 @@
 .frm-asterisk {
     margin: 0;
     margin-left: 1px;
+}
+
+.btn-send {
+    margin-right: 10px;
+    text-align: center;
 }
 
 #usuario, #password {
