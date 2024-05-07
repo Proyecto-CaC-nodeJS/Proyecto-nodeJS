@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Valida el campo usuario
       if (usuario.value.trim() === "") {
         esValido = false;
-        console.log(porFavorIngrese + "su usuario.");
+        alert(porFavorIngrese + "su usuario.");
         usuario.focus();
       }
 

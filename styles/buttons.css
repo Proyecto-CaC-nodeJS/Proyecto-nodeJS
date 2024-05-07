@@ -1,8 +1,9 @@
- /*  Estilos para todos los botones  */
+/*  Estilos para todos los botones  */
 
 .buttons {
     display: flex;
     justify-content: center;
+    align-items: center; 
     margin-top: 20px;
 }
 
@@ -31,10 +32,21 @@
     border-width: 2px;
 }
 
+/*
 .btn-return, .btn-clean, .btn-send {
     margin-right: 10px;
     text-align: center;
     text-decoration: none;
+}
+*/
+
+.btn-clean, .btn-send {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.btn-clean {
+    float: left;
 }
 
 .btn-send {
