@@ -1,6 +1,6 @@
 Silvio
 ------
-- verificar que los inputs esten funcionando correctamente
+- Se cambio Contraseña por Password
 - centrar boton de enviar en acceso
 - que no se redimensione los forms cuando se activa el hovere de los botones
 - terminar mi pagina basandome en la pagina de sega
