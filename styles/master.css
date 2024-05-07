@@ -1,16 +1,16 @@
 /* Importar archivos CSS dentro de master.css
    Carga todos los estilos  */
 
-@import url('../styles/html.css');
-@import url('../styles/imports.css');
-@import url('../styles/fonts.css');
-@import url('../styles/body.css');
-@import url('../styles/header.css');
-@import url('../styles/main.css');
-@import url('../styles/section.css');
-@import url('../styles/navbar.css');
-@import url('../styles/forms.css');
-@import url('../styles/inputs.css');
-@import url('../styles/buttons.css');
-@import url('../styles/menu.css');
-@import url('../styles/footer.css');
+@import url('../styles/html.css');      /*  Estilos para todos los htmls  */
+@import url('../styles/imports.css');   /*  Importaciones  */
+@import url('../styles/fonts.css');     /*  Importaciones de fuentes  */
+@import url('../styles/body.css');      /*  Estilos para todos los bodys  */
+@import url('../styles/header.css');    /*  Estilos para todos los headers  */
+@import url('../styles/main.css');      /*  Estilos para todos los mains  */
+@import url('../styles/section.css');   /*  Estilos para todos los sctions  */
+@import url('../styles/navbar.css');    /*  Estilos para todos las navbars  */
+@import url('../styles/forms.css');     /*  Estilos para todos los formularios  */
+@import url('../styles/inputs.css');    /*  Estilos para todos los inputs  */
+@import url('../styles/buttons.css');   /*  Estilos para todos los botones  */
+@import url('../styles/redes.css');     /*  Boton redes sociales  */
+@import url('../styles/footer.css');    /*  Estilos para todos los footers  */

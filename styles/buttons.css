@@ -1,6 +1,6 @@
  /*  Estilos para todos los botones  */
 
- .buttons {
+.buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
