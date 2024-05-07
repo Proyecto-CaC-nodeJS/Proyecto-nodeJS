@@ -11,38 +11,41 @@ h1 {
     font-family: 'Scorpion-Regular'; /* Nombre de la fuente */
     background: #0000001c;
     border-radius: 10px 10px 10px 10px;
-    color: #ffb158;
+    color: #5863ff;
     animation: neon 1.5s infinite alternate;
 }
 
 h2 {
     font-family: 'Scorpion-Regular'; /* Nombre de la fuente */
-    color: #ffb158;
+    color: #5863ff;
     animation: neon 1.5s infinite alternate;
+    padding-top: 5vh;
     padding-bottom: 5vh;
+    font-size: 40px;
 }
 
 p{
     font-family: 'Arimo';
     font-size: 0.7em;
     font-style: italic;
-    color: #fca23c;
+    color: #5863ff;
     text-align: left;
     margin: 30px;
+    padding-bottom: 20px;
 }
 
 h3 {
     font-family: 'Scorpion-Regular';
     margin-top: 10px;
-    color: #fca23c;
+    color: #5863ff;
 }
 
 @keyframes neon {
     0% {
-        text-shadow: 0 0 3px #ff8000e1, 0 0 10px #ff8800, 0 0 10px #ff8800
+        text-shadow: 0 0 3px #1521c7e1, 0 0 10px #1521c7, 0 0 10px #1521c7
     }
     100% {
-        text-shadow: 0 0 10px #ff850be1, 0 0 30px #ff850be1, 0 0 40px #ff850be1
+        text-shadow: 0 0 10px #1521c7e1, 0 0 30px #1521c7e1, 0 0 40px #1521c7e1
     }
 }
 
@@ -61,7 +64,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to left, #674b23, #000000);
+    background: linear-gradient(to left, #2418d1, #000000);
     padding: 10px 20px;
 }
 
@@ -75,8 +78,8 @@ header {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    -webkit-text-stroke: 2px #4b3818; /* Contorno alrededor del texto (color y ancho) */
-    color: #ffd89d; /* Color del interior del texto */
+    -webkit-text-stroke: 2px #050147; /* Contorno alrededor del texto (color y ancho) */
+    color: #9f9dff; /* Color del interior del texto */
     transition: color 0.3s; /* Transición suave de color al pasar el mouse */
 }
 
@@ -189,14 +192,11 @@ header {
     .content.menu-opened {
         margin-top: 200px;
     }
-
-
 }
 
 main {
     margin-top: 83px; 
 }
-
 
 /* Estilos generales */
 body {
@@ -205,83 +205,6 @@ body {
     background: linear-gradient(to left, #0a0a0a, #232F40, #0a0a0a);
     justify-content: center;
     align-items: center;
-}
-
-/* ------------------ redes ---------------- */
-.logo-redes {
-    width: 50px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
-    position: fixed;
-    z-index: 999;
-    left: 91.5%;
-    top: 85%;
-    cursor: pointer;
-    transition: filter 0.7s;
-}
-
-.logo-redes:hover {
-    filter: blur(0.7px);
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Gradiente de transparencia */
-}
-
-/* Estilo para el contenedor del menú */
-.menu {
-    position: block;
-    display: inline-block;
-    
-}
-
-  /* Estilo para el contenido del menú desplegable */
-.dropdown-content {
-    display: none;
-    position: fixed;
-    width: 30px;
-    border-radius: 30px 30px 0 0;
-    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
-    background-color: #ffffff;
-    z-index: 990;
-    overflow: hidden;
-    padding: 10px;
-    padding-bottom: 20px;
-    margin-top: -6px;
-    left: 91.5%;
-    top: 51.5%;
-    animation: slideInFromBottom 0.5s ease forwards; /* Aplicar animación al desplegar */   
-}
-
-  /* Estilo para las imágenes dentro del menú desplegable */
-.dropdown-image {
-    width: 35px; /* ajusta el tamaño de las imágenes según sea necesario */
-}
-
-  /* Mostrar el menú desplegable al pasar el ratón sobre el icono */
-.menu:hover .dropdown-content {
-    display: block;
-}
-
-@keyframes slideInFromBottom {
-    0% {
-        
-        height: 0px;
-    }
-    100% {
-        
-        height: 200px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .menu {
-        width: 40px;
-    }
-    .dropdown-content {
-        top: 46.1%;
-    }
-
-    .dropdown-image {
-        right: 100vw;
-    }
 }
 
 /* ------------------ front ---------------- */
@@ -301,8 +224,8 @@ body {
     font-size: 4.1em; /* Tamaño de fuente de 36 píxeles */
     margin-top: 0px; /* Sin margen superior */
     font-family: 'Scorpion-Regular'; /* Familia de fuentes personalizada con respaldo de fuentes genéricas sans-serif */
-    color: #ffb158; /* Color del interior del texto */
-    -webkit-text-stroke: 2px #ff9317; /* Contorno alrededor del texto */
+    color: #6358ff; /* Color del interior del texto */
+    -webkit-text-stroke: 2px #2e17ff; /* Contorno alrededor del texto */
     position: absolute; /* Establece el texto como posición absoluta */
     top: 50%; /* Lo coloca en la mitad superior del contenedor */
     left: 50%; /* Lo coloca en el centro horizontal del contenedor */
@@ -331,7 +254,7 @@ body {
     top: 40%; /* Lo coloca en el centro verticalmente */
     left: 50%; /* Lo coloca en el centro horizontalmente */
     transform: translate(-50%, -50%); /* Centra el título completamente */
-    color: #ffb158; /* Color del texto */
+    color: #5b58ff; /* Color del texto */
     padding: 9.5%; /* Espacio interior del título */
     font-size: 2.5em;
     text-align: center;
@@ -341,150 +264,108 @@ body {
     background-color: #000;
     width: 92.5%; /* Ancho del contenedor */
     margin: 0 auto; /* Centrar el contenedor horizontalmente */
-    padding: 1px 1px 1px 1px; /* Espacio interior del contenedor */
     text-align: center; /* Centrar el contenido dentro del contenedor */
     font-size: 2em;
     border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(25, 0, 255, 0.5);
 }
 
 @media screen and (max-width: 768px) {
     .info {
         width: 90%; /* Ajusta el ancho para dispositivos móviles */
-        padding: 1%; /* Ajusta el espacio interior */
         font-size: 1.5em; /* Ajusta el tamaño de fuente */
     }
 }
-/* ------------------ personajes ---------------- */
-.players{
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-wrap: wrap; 
-}
 
-.players .player {
-    text-align: center;
-    margin: 5px;
-    flex-basis: 30%; 
-    max-width: 300px; 
-}
+/* ------------------ consolas ---------------- */
 
-.players img{
-    max-width: 100%;
-    height: auto;
-    max-height: 200px;
-}
-
-@media screen and (max-width: 768px) {
-    .players {
-        flex-direction: column; /* Cambiar la dirección de flex a columna */
-    }
-
-    .players .player {
-        flex-basis: 100%; /* Ocupar todo el ancho disponible */
-        max-width: none; /* Eliminar el máximo ancho */
-    }
-}
-
-/* ------------------ armas ---------------- */
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.carousel {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    width: 70vw; /* Ajusta el ancho del carrusel según tus necesidades */
-    height: 80vh;
-}
-
-.carousel-slide {
-    flex: 0 0 auto;
-    width: 100%;
-    transition: transform 0.8s;
-}
-
-.carousel-slide img {
-    width: 100%;
-    height: 100%;
-    opacity: 100%;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(40%);
-    z-index: 1;
-    cursor: pointer;
-    background: #ff8800;
-    color: #fff;
-    border-color: rgb(0, 26, 255);
-    border-radius: 30%;
-}
-
-#prevBtn {
-    left: 10px;
-}
-
-#nextBtn {
-    right: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    .carousel {
-        width: 100%;
-        height: 90vh;
-    }
-
-    .carousel-slide {
-        width: 100%;
-    }
-}
-
-/* ------------------ mapas ---------------- */
-
-.maps{
+.consoles{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 92.5%;
-    max-height: 100%;
     margin: auto;
 }
 
-.maps img{
-    max-width: 100%;
-    max-height: 100%;
+.consoles img{
     width: 0px;
-    height: 70vh;
+    height: 60vh;
     flex-grow: 1;
     object-fit: cover;
     opacity: .4;
     transition: .5s ease;
 }
 
-.maps img:hover{
+#img-left {
+    border-radius: 10px 0 0 10px;
+}
+
+#img-right {
+    border-radius: 0 10px 10px 0;
+}
+
+.consoles img:hover{
     cursor: crosshair;
-    width: 300px;
+    width: 200px;
     opacity: 1;
-    filter: contrast(120%);
+    filter: contrast(100%);
 }
 
 @media screen and (max-width: 768px) {
-    .maps {
+    .consoles {
         max-width: 90%;
-        height: 70vh; /* Cambia la altura a automática para ajustar el contenido */
+        max-height: 70vh; /* Cambia la altura a automática para ajustar el contenido */
     }
 
-    .maps img {
-        max-width: 50%; /* Ajusta el ancho de la imagen al 100% */
-        width: 0vw; /* Elimina el máximo ancho */
-        height: 100%; /* Ajusta la altura automáticamente */
+    .consoles img {
+        max-width: 100%; /* Ajusta el ancho de la imagen al 100% */
+    }
+}
+
+/* ------------------ Carrusel ---------------- */
+.container-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.carousel img {
+    max-width: 100%;
+}
+
+#line:hover {
+    cursor: pointer;
+}
+
+#prevBtn {
+    visibility: hidden;
+    height: 0px;
+}
+
+#nextBtn {
+    visibility: hidden;
+    height: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .container-game {
+        margin-top: 32%;
     }
 }
 
@@ -494,12 +375,13 @@ button {
     text-align: center; /* Centra el texto en el contenedor. */
     background-color: #000000; /* Establece el color de fondo a negro. */
     padding: 20px;
+    border-radius: 10px;
 }
 
 .twitch-titulo {
     /* Estilos para el título "STREAMS DE VALORANT". */
     font-size: 48px; /* Establece el tamaño de fuente en 48 píxeles. */
-    color: #ffb158; /* Establece el color del texto en un tono de naranja. */
+    color: #6958ff; /* Establece el color del texto en un tono de naranja. */
 }
 
 .streams {
@@ -576,6 +458,83 @@ button {
 @media screen and (max-width: 768px) {
     .streams {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ------------------ boton redes ---------------- */
+.logo-redes {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+    position: fixed;
+    z-index: 999;
+    left: 91.5%;
+    top: 85%;
+    cursor: pointer;
+    transition: filter 0.7s;
+}
+
+.logo-redes:hover {
+    filter: blur(0.7px);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Gradiente de transparencia */
+}
+
+/* Estilo para el contenedor del menú */
+.menu {
+    position: block;
+    display: inline-block;
+}
+
+  /* Estilo para el contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    width: 30px;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
+    background-color: #ffffff;
+    z-index: 990;
+    overflow: hidden;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: -6px;
+    left: 91.5%;
+    top: 51.5%;
+    animation: slideInFromBottom 0.5s ease forwards; /* Aplicar animación al desplegar */  
+    box-sizing: content-box;
+}
+
+  /* Estilo para las imágenes dentro del menú desplegable */
+.dropdown-image {
+    width: 35px; /* ajusta el tamaño de las imágenes según sea necesario */
+}
+
+  /* Mostrar el menú desplegable al pasar el ratón sobre el icono */
+.menu:hover .dropdown-content {
+    display: block;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        
+        height: 0px;
+    }
+    100% {
+        
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 40px;
+    }
+    .dropdown-content {
+        top: 46.1%;
+    }
+
+    .dropdown-image {
+        right: 100vw;
     }
 }
 
@@ -689,80 +648,4 @@ footer {
         height: 30px;
     }
 }
-
-/* ------------------ boton redes ---------------- */
-/* ------------------ redes ---------------- */
-.logo-redes {
-    width: 50px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
-    position: fixed;
-    z-index: 999;
-    left: 91.5%;
-    top: 85%;
-    cursor: pointer;
-    transition: filter 0.7s;
-}
-
-.logo-redes:hover {
-    filter: blur(0.7px);
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Gradiente de transparencia */
-}
-
-/* Estilo para el contenedor del menú */
-.menu {
-    position: block;
-    display: inline-block;
-    
-}
-
-  /* Estilo para el contenido del menú desplegable */
-.dropdown-content {
-    display: none;
-    position: fixed;
-    width: 30px;
-    border-radius: 30px 30px 0 0;
-    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.75);
-    background-color: #ffffff;
-    z-index: 990;
-    overflow: hidden;
-    padding: 10px;
-    padding-bottom: 20px;
-    margin-top: -6px;
-    left: 91.5%;
-    top: 51.5%;
-    animation: slideInFromBottom 0.5s ease forwards;    
-}
-
-  /* Estilo para las imágenes dentro del menú desplegable */
-.dropdown-image {
-    width: 35px; 
-}
-
-  /* Mostrar el menú desplegable al pasar el ratón sobre el icono */
-.menu:hover .dropdown-content {
-    display: block;
-}
-
-@keyframes slideInFromBottom {
-    0% {
-        height: 0px;
-    }
-    100% {
-        height: 200px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .menu {
-        width: 40px;
-    }
-    .dropdown-content {
-        top: 46.1%;
-    }
-
-    .dropdown-image {
-        right: 100vw;
-    }
-}
-/* ------------------ CSGO ---------------- */
+/* ------------------ SEGA ---------------- */
