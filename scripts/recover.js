@@ -1,25 +1,3 @@
-/*
-var inputs = document.getElementsByTagName("input");
-for (var i = 0; i < inputs.length; i++) {
-  inputs[i].addEventListener("keyup", function () {
-    if (this.value.length >= 1) {
-      this.nextElementSibling.classList.add("set");
-    } else {
-      this.nextElementSibling.classList.remove("set");
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  const mobileMenuButton = document.querySelector(".mobile-menu-button");
-  const mobileMenu = document.querySelector(".mobile-menu");
-
-  mobileMenuButton.addEventListener("click", function () {
-    mobileMenu.classList.toggle("active");
-  });
-});
-/*
-
 /* Validaciones del formulario crear cuenta */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -58,17 +36,4 @@ document.addEventListener("DOMContentLoaded", function () {
     return esValido;
   }
 
-  /*
-  // Función para validar el formato del correo electrónico
-  function validarEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-  }
-
-  // Función para validar el formato del teléfono (opcional)
-  function validarTelefono(telefono) {
-    const telefonoRegex = /^\d{10}$/; // Asumiendo que el teléfono debe tener 10 dígitos
-    return telefonoRegex.test(telefono);
-  }
-  */
 });
