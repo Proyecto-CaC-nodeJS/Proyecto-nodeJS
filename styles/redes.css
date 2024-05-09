@@ -21,7 +21,6 @@
 .menu {
     position: block;
     display: inline-block;
-    
 }
 
 /* Estilo para el contenido del menú desplegable */
@@ -44,6 +43,7 @@
 
 /* Estilo para las imágenes dentro del menú desplegable */
 .dropdown-image {
+    /* ajusta el tamaño de las imágenes según sea necesario */
     width: 35px; 
 }
 
