@@ -1,4 +1,4 @@
-/* Validaciones del formulario contactos */
+/* Validaciones del formulario contact */
 
 document.addEventListener("DOMContentLoaded", function () {
   const formulario = document.querySelector(".forms");

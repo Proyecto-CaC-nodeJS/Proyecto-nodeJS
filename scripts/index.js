@@ -1,4 +1,4 @@
-var inputs = document.getElementsByTagName('input');
+/*var inputs = document.getElementsByTagName('input');
 for (var i = 0; i < inputs.length; i++){
     inputs[i].addEventListener('keyup', function(){
         if(this.value.length>=1){
@@ -9,6 +9,7 @@ for (var i = 0; i < inputs.length; i++){
         }
     });
 }
+*/
 
 document.addEventListener("DOMContentLoaded", function () {
     const mobileMenuButton = document.querySelector(".mobile-menu-button");

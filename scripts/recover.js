@@ -1,4 +1,4 @@
-/* Validaciones del formulario crear cuenta */
+/*  Validaciones del formulario recuperar usuario o password  */
 
 document.addEventListener("DOMContentLoaded", function () {
   const formulario = document.querySelector(".forms");
@@ -35,5 +35,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     return esValido;
   }
-
 });
