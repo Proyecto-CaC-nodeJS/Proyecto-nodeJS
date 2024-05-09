@@ -2,5 +2,7 @@ Silvio
 ------
 - centrar boton de enviar en acceso
 - que no se redimensione los forms cuando se activa el hovere de los botones
+- reorganizar pagina index (restructuracion del codigo referido a css y js)
+- reorganizar pagina sega (restructuracion del codigo referido a css y js)
 - terminar mi pagina basandome en la pagina de sega
 - ultimo agregar botones de ir arriba y abajo
