@@ -1,4 +1,4 @@
-/*  Funciones para mobile menu button  */
+/*  Funciones para mobile  */
 
 document.addEventListener("DOMContentLoaded", function () {
     const mobileMenuButton = document.querySelector(".mobile-menu-button");
