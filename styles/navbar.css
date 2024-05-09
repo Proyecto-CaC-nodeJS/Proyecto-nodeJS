@@ -1,5 +1,6 @@
 /*  Estilos para todos las navbars  */
 
+/* Estilo para la navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -10,7 +11,7 @@
 
 /* Estilo para el logo */
 .navbar-left img {
-    height: 60px;
+    height: 35px;
 }
 
 /* Estilo para los enlaces a la derecha con texto contorneado */
@@ -18,42 +19,54 @@
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    -webkit-text-stroke: 2px #7512e6; /* Contorno alrededor del texto (color y ancho) */
-    color: #d0adf8; /* Color del interior del texto */
-    transition: color 0.3s; /* Transición suave de color al pasar el mouse */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 2px #7512e6;
+    /* Color del interior del texto */
+    color: #d0adf8;
+    /* Transición suave de color al pasar el mouse */
+    transition: color 0.3s;
 }
 
 /* Cambiar el color y el contorno al pasar el mouse por encima de "INICIO" */
 .navbar-right a:nth-child(1):hover {
-    -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
-    color: #842cff; /* Color del interior del texto */
+     /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #130031;
+     /* Color del interior del texto */
+    color: #842cff;
 }
 
-/* Cambiar el color y el contorno al pasar el mouse por encima de "CS Go" */
+/* Cambiar el color y el contorno al pasar el mouse por encima de "SEGA" */
 .navbar-right a:nth-child(2):hover {
-    -webkit-text-stroke: 0.2px #916100; /* Contorno alrededor del texto (color y ancho) */
-    color: #ffd500; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #0a0091;
+    color: #1900ff; /* Color del interior del texto */
 }
 
-/* Cambiar el color y el contorno al pasar el mouse por encima de "Valorant" */
+/* Cambiar el color y el contorno al pasar el mouse por encima de "FPS" */
 .navbar-right a:nth-child(3):hover {
-    -webkit-text-stroke: 0.2px #7e1720; /* Contorno alrededor del texto (color y ancho) */
-    color: #e10013; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #7e1720;
+    /* Color del interior del texto */
+    color: #e10013;
 }
 
 /* Cambiar el color y el contorno al pasar el mouse por encima de "Left" */
 .navbar-right a:nth-child(4):hover {
-    -webkit-text-stroke: 0.2px #004600; /* Contorno alrededor del texto (color y ancho) */
-    color: #00a00d; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #004600;
+    /* Color del interior del texto */
+    color: #00a00d;
 }
 
-/* Cambiar el color y el contorno al pasar el mouse por encima de "Contacto" */
+/* Cambiar el color y el contorno al pasar el mouse por encima de "CONTACTO" */
 .navbar-right a:nth-child(5):hover {
-    -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
-    color: #842cff; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #130031;
+    /* Color del interior del texto */
+    color: #842cff;
 }
 
-/* Cambiar el color y el contorno al pasar el mouse por encima de "Contacto" */
+/* Cambiar el color y el contorno al pasar el mouse por encima de "ACCESO" */
 .navbar-right a:nth-child(6):hover {
     -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
     color: #842cff; /* Color del interior del texto */
@@ -61,10 +74,12 @@
 
 /* Estilo para el botón hamburguesa */
 .mobile-menu-button {
-    display: none; /* Ocultar el botón en pantallas grandes */
+    /* Ocultar el botón en pantallas grandes */
+    display: none;
     cursor: pointer;
     padding: 10px;
-    background: #000000; /* Cambia el color según tus preferencias */
+    /* Cambia el color según tus preferencias */
+    background: #000000;
     color: #fff;
 }
 
@@ -121,7 +136,10 @@
 }
 
 /* Estilo para mostrar u ocultar el menú desplegable */
-@media screen and (max-width: 992px) {
+
+/* esto estaba en el original
+/* @media screen and (max-width: 992px) { */ 
+@media screen and (max-width: 768px) {
     .navbar-right {
         display: none;
     }
@@ -139,3 +157,4 @@
         margin-top: 200px;
     }
 }
+/* } */

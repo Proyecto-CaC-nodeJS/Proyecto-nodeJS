@@ -8,6 +8,11 @@ footer {
     padding: 20px;
 }
 
+footer {
+    background: linear-gradient(#000000, #674b23);
+    margin-top: 30px;
+}
+
 .left-section ul, .right-section ul {
     list-style: none;
     padding: 0;
@@ -28,6 +33,14 @@ footer {
     text-align: center;
     font-family: "Arimo";
     font-style: italic;
+}
+
+.center-section p{
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 1em;
+    text-align: center;
 }
 
 .center-section img {
@@ -52,8 +65,59 @@ footer {
     margin-right: 10px;
 }
 
+/*  Original
 .right-section img {
     width: 24px;
     height: 24px;
     margin-left: 10px; 
+}
+*/
+
+.right-section img {
+    width: 2vw;
+    height: 3vh;
+    
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        text-align: center;
+    }
+
+    .center-section img {
+        width: 20vw;
+        height: 25vh;
+    }
+    
+    .center-section p{
+        font-size: 5%;
+    }
+    
+    .left-section, .right-section, .center-section {
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .left-section, .right-section {
+        justify-content: center;
+    }
+
+    .left-section ul, .right-section ul {
+        margin: 0;
+    }
+
+    .left-section li, .right-section li {
+        margin: 10px 0;
+    }
+
+    .left-section img, .right-section img {
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+    }
 }
