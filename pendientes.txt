@@ -22,7 +22,7 @@
 
 - preguntar si podemos utilizar GtiHub Pages, , si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 8
-  consultar si lo puedo hacer yo
+  consultar si lo puedo hacer yo --> lo tiene que hacer Gianfranco
 
 - ultimo agregar botones de ir arriba y abajo
  
