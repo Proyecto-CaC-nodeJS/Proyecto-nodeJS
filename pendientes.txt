@@ -6,10 +6,12 @@
   Punto 2
 
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
+  falta terminar
 
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
 
 - terminar pagina fps basandome en la pagina de sega
+  falta terminar con texto e imagenes
 
 - verificar tamaños (PC escritorio, Tablet, Celular), si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 3
