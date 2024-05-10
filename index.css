@@ -1,73 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-
-
-@font-face {
-    font-family: 'Scorpion-Regular';
-    src: url(../src/General/Fonts/Scorpion-Regular/Scorpion.ttf);
-}
-
-
-html { scroll-behavior: smooth;}
-
-body {
-    margin: 0;
-    padding: 0;
-    background: #f2f2f2;
-    background-image: radial-gradient(#232F40,#000000 );
-    font-family: 'Scorpion-Regular';
-}
-
-h2 {
-    margin-bottom: .5em;
-    font-family: 'Scorpion-Regular';
-}
-span{
-    color: #7900ff;
-}
-
-header {
-    font-family: "Scorpion-Regular";
-    font-size: 20px;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-}
+/*  Estilos para index  */
 
 p {
     white-space: pre-line;
 }
 
-/* Estilo para el navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to left, #3f0088, #000000);
-    padding: 10px 20px;
-}
-
-/* Estilo para el logo */
-.navbar-left img {
-    height: 60px;
-}
-
-/* Estilo para los enlaces a la derecha con texto contorneado */
-.navbar-right a {
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    -webkit-text-stroke: 2px #7512e6; /* Contorno alrededor del texto (color y ancho) */
-    color: #d0adf8; /* Color del interior del texto */
-    transition: color 0.3s; /* Transición suave de color al pasar el mouse */
-}
-
-/* Cambiar el color y el contorno al pasar el mouse por encima de "INICIO" */
-.navbar-right a:nth-child(1):hover {
-    -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
-    color: #842cff; /* Color del interior del texto */
-}
 
 /* Cambiar el color y el contorno al pasar el mouse por encima de "SEGA" */
 .navbar-right a:nth-child(2):hover {
