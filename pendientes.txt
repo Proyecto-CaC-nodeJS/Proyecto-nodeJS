@@ -1,8 +1,28 @@
-Silvio
-------
 - centrar boton de enviar en acceso
+
 - que no se redimensione los forms cuando se activa el hovere de los botones
+
+- checkbox en pagina de registro o creacion de de cuenta, , si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 2
+
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
+
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
-- terminar mi pagina basandome en la pagina de sega
+
+- terminar pagina fps basandome en la pagina de sega
+
+- verificar tamaños (PC escritorio, Tablet, Celular), si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 3
+
+- verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 5
+
+- verificar optimizacion de imagenes, , si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 6
+
+- preguntar si podemos utilizar GtiHub Pages, , si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 8
+  consultar si lo puedo hacer yo
+
 - ultimo agregar botones de ir arriba y abajo
+ 
