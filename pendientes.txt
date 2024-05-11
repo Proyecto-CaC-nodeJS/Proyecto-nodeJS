@@ -2,6 +2,12 @@
 
 - que no se redimensione los forms cuando se activa el hovere de los botones
 
+- agregar en las validaciones las preguntas con binarios o ternarios lo que se pueda
+
+- agregar en las validaciones lo del ${}
+
+- agregar en las validaciones la funcion flecha
+
 - checkbox en pagina de registro o creacion de de cuenta, , si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 2
 
