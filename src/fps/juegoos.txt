@@ -13,10 +13,10 @@ Metal Gear Solid
 
 La década de los 90 fue realmente importante para el desarrollo de los juegos de disparos en primera persona (FPS). Aquí te dejo una lista de algunos de los juegos más influyentes de ese género durante esa época:
 
-Wolfenstein 3D (1992)
+01 - Wolfenstein 3D (1992)
 - A menudo considerado el abuelo de los FPS modernos, estableció las bases para muchos de los elementos esenciales del género.
 
-Doom (1993)
+02 - Doom (1993)
 - Revolucionario por su tiempo, introdujo gráficos en 3D más complejos y un juego más rápido y violento que su predecesor, Wolfenstein 3D.
 
 Heretic (1994)
