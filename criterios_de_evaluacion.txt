@@ -37,3 +37,4 @@ Falta verificar optimizacion de imagenes.
 
 10 - Utilizar iframes y/o íconos de FontAwesome y/o fuentes locales o bien de Google Fonts.
      Es optativo incluir algún elemento de Bootstrap.
+     Hecho
