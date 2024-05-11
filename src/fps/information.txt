@@ -1,53 +1,8 @@
-La década de los 90 fue realmente importante para el desarrollo de los juegos de disparos en primera persona (FPS, por sus siglas en ingles, First Person Shooting). 
-
-
-Estos son algunos de los juegos más influyentes de la época:
-
-Wolfenstein 3D (1992)
-- A menudo considerado el abuelo de los FPS modernos, estableció las bases para muchos de los elementos esenciales del género.
-
-Doom (1993)
-- Revolucionario por su tiempo, introdujo gráficos en 3D más complejos y un juego más rápido y violento que su predecesor, Wolfenstein 3D.
-
-Heretic (1994)
-- Desarrollado por los mismos creadores de Doom, llevó la acción de los FPS al mundo de la fantasía y fue uno de los primeros juegos en permitir la mira hacia arriba y hacia abajo.
-
-Hexen (1995)
-- Basado en el motor de Doom, Hexen introdujo más elementos de fantasía y un sistema de clases de personajes, lo que agregó una nueva dimensión a la jugabilidad de los FPS.
-
-Duke Nukem 3D (1996)
-- Conocido por su personaje carismático y su sentido del humor, también trajo innovaciones en términos de diseño de niveles y elementos interactivos.
-
-Quake (1996)
-- Fue uno de los primeros juegos en utilizar gráficos totalmente 3D, lo que significó una gran evolución respecto a los sprites 2D utilizados anteriormente.
-
-Blood (1997)
-- Conocido por su atmósfera oscura y su violento contenido, utilizó el motor de Duke Nukem 3D y es recordado por su estilo gótico y horror.
-
-Half-Life (1998)
-- Revolucionó el género con su enfoque en la narrativa integrada dentro del juego, además de sus innovadores elementos de puzzle y un diseño de niveles inmersivo.
-
-Unreal (1998)
-- Aparte de su motor gráfico avanzado, ofreció un mundo vasto y detallado con una historia atractiva.
-
-Counter-Strike (1999)
-- Originalmente un mod de Half-Life, se convirtió en uno de los juegos de disparos competitivos más populares y duraderos.
-
-
-
-
-
-Quake II (1997) - Construyó sobre la base de Quake con gráficos mejorados, más armas y un enfoque más fuerte en la trama.
-System Shock 2 (1999) - Aunque es una mezcla de FPS y juego de rol, su profunda narrativa y ambientación de terror lo hacen destacar.
-
-Cada uno de estos juegos contribuyó de manera significativa al desarrollo del género FPS, ya sea a través de la innovación técnica, narrativa, o la introducción de elementos multijugador que siguen siendo fundamentales hoy en día.
-
-
-Descent (1995) - Aunque técnicamente es un shooter en primera persona, Descent se destacó por permitir el movimiento en un entorno completamente 3D, incluyendo arriba, abajo y todas las direcciones laterales, lo que representó un cambio en la percepción espacial en los juegos.
-Aliens versus Predator (1999) - Este juego permitía a los jugadores asumir roles de diferentes especies, cada una con habilidades únicas, y fue muy elogiado por su intensa atmósfera y juego variado.
-Estos juegos siguieron empujando los límites de lo que era posible en los juegos de disparos en primera persona y cada uno aportó algo único al género que ayudó a definir su futuro.
-
-Los juegos de disparos en primera persona (FPS) son un género fascinante que ha evolucionado significativamente desde sus inicios. Aquí te doy una visión más detallada sobre este género, sus características principales, evolución y el impacto cultural que han tenido.
+La década de los 90 fue realmente importante para el desarrollo de los juegos de disparos en primera persona
+(FPS, por sus siglas en ingles, First Person Shooting). 
+Los juegos de disparos en primera persona (FPS) son un género fascinante que ha evolucionado significativamente
+desde sus inicios. Aquí te doy una visión más detallada sobre este género, sus características principales,
+evolución y el impacto cultural que han tenido.
 
 Características Principales
 Los FPS son juegos centrados en el combate con armas, vistos desde la perspectiva en primera persona; es decir, los jugadores ven el entorno de juego desde los ojos del personaje que controlan. Esto crea una inmersión profunda y hace que las acciones del jugador se sientan más directas y personales. Los elementos comunes incluyen:
@@ -70,6 +25,7 @@ Realismo y Física: Juegos como "Half-Life 2" introdujeron físicas realistas qu
 AI y Comportamiento del Enemigo: La inteligencia artificial ha avanzado, con enemigos que pueden detectar, perseguir y flanquear al jugador de maneras cada vez más sofisticadas.
 Modos de Juego y Personalización: Con el auge de los esports y juegos como "Counter-Strike" y "Overwatch", los modos multijugador y la personalización del personaje se han vuelto centrales.
 Impacto Cultural
+
 Los FPS no solo son populares por su jugabilidad emocionante, sino que también han impactado en la cultura popular y mediática. Han influenciado películas, series de televisión y han sido a menudo el centro de debates sobre temas como la violencia en los videojuegos y sus efectos en los jugadores. Además, han sido pioneros en la tecnología de videojuegos, empujando los límites del hardware y software y fomentando comunidades en línea y competiciones de esports.
 
 El género FPS sigue siendo uno de los más populares y dinámicos en la industria de los videojuegos, continuando su evolución con nuevas tecnologías como la realidad virtual y los avances en inteligencia artificial, prometiendo una inmersión aún mayor y experiencias más ricas para los jugadores.
