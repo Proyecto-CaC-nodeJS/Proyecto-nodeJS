@@ -75,8 +75,10 @@
 
 /* Cambiar el color y el contorno al pasar el mouse por encima de "ACCESO" */
 .navbar-right a:nth-child(6):hover {
-    -webkit-text-stroke: 0.2px #130031; /* Contorno alrededor del texto (color y ancho) */
-    color: #842cff; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #130031;
+    /* Color del interior del texto */
+    color: #842cff;
 }
 
 /* Estilo para el botón hamburguesa */
@@ -99,7 +101,8 @@
 
 /* Estilo para el menú desplegable */
 .mobile-menu {
-    display: none; /* Ocultar el menú en pantallas grandes */
+    /* Ocultar el menú en pantallas grandes */
+    display: none;
     background: linear-gradient(#000000, #7512e6, #000000);
     position: absolute;
     top: 75px;
@@ -143,9 +146,6 @@
 }
 
 /* Estilo para mostrar u ocultar el menú desplegable */
-
-/* esto estaba en el original
-/* @media screen and (max-width: 992px) { */ 
 @media screen and (max-width: 768px) {
     .navbar-right {
         display: none;

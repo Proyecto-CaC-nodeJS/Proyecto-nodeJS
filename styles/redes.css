@@ -14,7 +14,8 @@
 
 .logo-redes:hover {
     filter: blur(0.7px);
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Gradiente de transparencia */
+    /* Gradiente de transparencia */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
 }
 
 /* Estilo para el contenedor del menú */
