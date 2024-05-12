@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     */
    
-    //
+    // Si el formulario es válido, lo informa en pantalla
     validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
     // Aqui se agrega un console.log 
     //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
