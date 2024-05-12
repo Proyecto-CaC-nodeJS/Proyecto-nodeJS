@@ -360,3 +360,8 @@ h3 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+footer {
+    background: linear-gradient(#000000, #e10013);
+    margin-top: 30px;
+}

@@ -14,13 +14,6 @@
     height: 35px;
 }
 
-/* Estilo para el logo */
-/*
-.navbar-left img {
-    height: 60px;
-}
-*/
-
 /* Estilo para los enlaces a la derecha con texto contorneado */
 .navbar-right a {
     text-decoration: none;
