@@ -135,23 +135,22 @@ p {
 }
 
 /*  RESPONSIVE  */
-    
-    @media screen and (max-width:1200px){
-        
-    }
-    .tarjetas-titulo{
-        font-size: 1.2em;
-        word-spacing: -5px;
-    }
-    #texto{
-        font-size: 17px;
-    }
+@media screen and (max-width:1200px){
+}
+
+.tarjetas-titulo{
+    font-size: 1.2em;
+    word-spacing: -5px;
+}
+
+#texto{
+    font-size: 17px;
+}
 
 ul{
     right:-100%;
 }
 
-    
 @media (hover: none) { 
         .tarjetas-titulo {
           opacity: 1;
@@ -199,23 +198,23 @@ ul{
     }
 }
 
-    .formulario__submit:hover{
+.formulario__submit:hover{
         font-size: 1em;
         width: 80% ; 
-    }
-    .formulario__submit:focus{
+}
+
+.formulario__submit:focus{
         box-shadow: 0 0 20px 1px rgba(121, 0, 255, 0.5);
 }
 
 @media (max-width: 894px){
-    
-#terminos{
+    #terminos{
     font-size: 0px;
-}
+    }
 }
 
- @media screen and (max-width: 992px) {
-        .contenedor-grid {
+@media screen and (max-width: 992px) {
+    .contenedor-grid {
               grid-template-columns: 1fr; /* Esto hará que las tarjetas se muestren una debajo de la otra en pantallas más pequeñas */
               grid-gap: 16px; /* Ajusta el espacio entre las tarjetas según tu preferencia */
             }
