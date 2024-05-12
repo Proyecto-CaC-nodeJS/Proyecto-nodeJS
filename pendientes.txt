@@ -3,8 +3,10 @@
 - que no se redimensione los forms cuando se activa el hovere de los botones
 
 - agregar en las validaciones las preguntas con binarios o ternarios lo que se pueda
+  Hecho
 
 - agregar en las validaciones lo del ${}
+  Hecho
 
 - agregar en las validaciones la funcion flecha
 
@@ -12,12 +14,12 @@
   Punto 2
 
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
-  falta terminar
+  Falta terminar
 
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
 
 - terminar pagina fps basandome en la pagina de sega
-  falta terminar con texto e imagenes
+  Falta terminar con texto e imagenes
 
 - verificar tamaños (PC escritorio, Tablet, Celular), si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 3
@@ -26,7 +28,7 @@
   Punto 5
 
 - verificar optimizacion de imagenes, , si se verifica marcar que esta hecho en los criterios de evalucion 
-  Punto 6
+  Falta Punto 6
 
 - preguntar si podemos utilizar GtiHub Pages, , si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 8
