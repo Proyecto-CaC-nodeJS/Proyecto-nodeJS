@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
+
+    /*
     if (validarFormulario()) {
       // Si el formulario es válido, puedes enviar los datos
       console.log("Formulario válido. Enviando datos...");
@@ -16,6 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // Hace un reset de los campos
       this.reset(); 
     }
+    */
+
+    //
+    validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    // Aqui se agrega un console.log 
+    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
+    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
   });
 
   function validarFormulario() {
@@ -25,11 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Valida el campo Email
     if (email.value.trim() === "") {
       esValido = false;
-      alert(porFavorIngrese + "su dirección de correo electrónico.");
+      alert(`${porFavorIngrese} su dirección de correo electrónico.`);
       email.focus();
     } else if (!validarEmail(email.value)) {
       esValido = false;
-      alert("El formato del correo electrónico no es válido.");
+      alert("El formato del correo electrónico es inválido.");
       email.focus();
     }
 

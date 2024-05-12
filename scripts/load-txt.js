@@ -10,7 +10,7 @@ addEventListener('DOMContentLoaded', (event) => {
     req.open('GET', '../src/fps/information.txt', true);
 
     req.onreadystatechange = function () {
-       if (req.readyState === 4 && req.status === 200) {
+        if (req.readyState === 4 && req.status === 200) {
           // Cuando la solicitud es exitosa, asignar el contenido del archivo 
           // al texto del <p>
           parrafo.textContent = req.responseText;

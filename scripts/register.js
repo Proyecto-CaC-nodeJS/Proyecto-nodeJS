@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const comentario = document.querySelector("#comentario");
 
   formulario.addEventListener("submit", function (event) {
-      event.preventDefault();
+    event.preventDefault();
+
+    /*
       if (validarFormulario()) {
           // Si el formulario es válido, puedes enviar los datos
           console.log("Formulario válido. Enviando datos...");
@@ -23,85 +25,111 @@ document.addEventListener("DOMContentLoaded", function () {
       // Hace un reset de los campos
       this.reset(); 
       }
+    */
+
+    //
+    validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    // Aqui se agrega un console.log 
+    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
+    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
   });
 
   function validarFormulario() {
-      const porFavorIngrese = "Por favor, ingrese "; 
-      let esValido = true;
+    const porFavorIngrese = "Por favor, ingrese "; 
+    let esValido = true;
 
-      // Valida el campo usuario
-      if (usuario.value.trim() === "") {
-        esValido = false;
-        alert(porFavorIngrese + "un usuario.");
-        usuario.focus();
-      }
-      
-      // Valida el campo nombre
-      if ((esValido) && (nombre.value.trim() === "")) {
-        esValido = false;
-        alert(porFavorIngrese + "su nombre.");
-        nombre.focus();
-        }
+    // Valida el campo usuario
+    /*
+    if (usuario.value.trim() === "") {
+      esValido = false;
+      alert(porFavorIngrese + "un usuario.");
+      usuario.focus();
+    }
+    */
+    usuario.value.trim() === "" ? (esValido = false, alert(`${porFavorIngrese} el usuario`), usuario.focus()) : null;
 
-      // Valida el campo apellido
-      if ((esValido) && (apellido.value.trim() === "")) {
-        esValido = false;
-        alert(porFavorIngrese + "su apellido.");
-        apellido.focus();
-      }
+    // Valida el campo nombre
+    /*
+    if ((esValido) && (nombre.value.trim() === "")) {
+      esValido = false;
+      alert(porFavorIngrese + "su nombre.");
+      nombre.focus();
+    }
+    */
+    (esValido && nombre.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su nombre.`),
+    nombre.focus()) : null;
 
-      // Valida el campo contraseña
-      if ((esValido) && (password.value.trim() === "")) {
+    // Valida el campo apellido
+    /*
+    if ((esValido) && (apellido.value.trim() === "")) {
+      esValido = false;
+      alert(`${porFavorIngrese} su apellido.`);
+      apellido.focus();
+    }
+    */
+    (esValido && apellido.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su apellido.`),
+    apellido.focus()) : null;
+
+    // Valida el campo contraseña
+    /*
+    if ((esValido) && (password.value.trim() === "")) {
         esValido = false;
-        alert(porFavorIngrese + "su contraseña.");
+        alert(`${porFavorIngrese} su contraseña.`);
         password.focus();
-      }
+    }
+    */
+    (esValido && password.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su contraseña.`),
+    password.focus()) : null;
 
-      // Valida el campo repetir contraseña
-      if (esValido) {
-        if (repetirPassword.value.trim() === "") {
-          esValido = false;
-          alert(porFavorIngrese + "la repeticion de su contraseña.");
-          repetirPass.focus();
-        } else if (!(password.value.trim() === repetirPassword.value.trim())) {
-          esValido = false;
-          alert("Las dos contraseñas no coinciden.");
-          repetirPassword.focus();
-        }
-      }
-
-      // Valida el campo email
-      if (esValido) {
-        if (email.value.trim() === "") {
-          esValido = false;
-          alert(porFavorIngrese + "su dirección de correo electrónico.");
-          email.focus();
-        } else if (!validarEmail(email.value)) {
-          esValido = false;
-          alert("El formato del correo electrónico no es válido.");
-          email.focus();
-        }
-      }
-
-      // Valida el campo teléfono (opcional)
-      if (esValido) {
-        if (telefono.value.trim() === "") {
-          esValido = false;
-          alert(porFavorIngrese + "su numero de telefono.");
-          telefono.focus();
-        } else if (!validarTelefono(telefono.value)) {
-          esValido = false;
-          alert("El formato del teléfono no es válido.");
-          telefono.focus();
-        }
-      }
-
-      // Valida el campo comentario
-      if ((esValido) && comentario.value.trim() === "") {
+    // Valida el campo repetir contraseña
+    if (esValido) {
+      if (repetirPassword.value.trim() === "") {
         esValido = false;
-        alert(porFavorIngrese + "un comentario.");
-        comentario.focus();
+        alert(porFavorIngrese + "la repeticion de su contraseña.");
+        repetirPass.focus();
+      } else if (!(password.value.trim() === repetirPassword.value.trim())) {
+        esValido = false;
+        alert("Las dos contraseñas no coinciden.");
+        repetirPassword.focus();
       }
+    }
+
+    // Valida el campo email
+    if (esValido) {
+      if (email.value.trim() === "") {
+        esValido = false;
+        alert(porFavorIngrese + "su dirección de correo electrónico.");
+        email.focus();
+      } else if (!validarEmail(email.value)) {
+        esValido = false;
+        alert("El formato del correo electrónico no es válido.");
+        email.focus();
+      }
+    }
+
+    // Valida el campo teléfono (opcional)
+    if (esValido) {
+      if (telefono.value.trim() === "") {
+        esValido = false;
+        alert(porFavorIngrese + "su numero de telefono.");
+        telefono.focus();
+      } else if (!validarTelefono(telefono.value)) {
+        esValido = false;
+        alert("El formato del teléfono no es válido.");
+        telefono.focus();
+      }
+    }
+
+    // Valida el campo comentario
+    /*
+    if ((esValido) && comentario.value.trim() === "") {
+      esValido = false;
+      alert(`${porFavorIngrese} un comentario.`);
+      comentario.focus();
+    }
+    */
+    (esValido && comentario.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} un comentario.`),
+    comentario.focus()) : null;
 
       return esValido;
   }

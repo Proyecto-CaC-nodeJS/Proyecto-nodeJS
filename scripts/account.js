@@ -9,9 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
+
+    //
+    /*
     if (validarFormulario()) {
       // Si el formulario es válido, puedes enviar los datos
-      console.log("Formulario válido. Enviando datos...");
+      //console.log("Formulario válido. Enviando datos...");
 
       // Si el formulario es válido, lo informa en pantalla
       alert('¡ Datos enviados correctamente !');
@@ -19,6 +22,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // Hace un reset de los campos
       this.reset(); 
     }
+    */
+
+    //
+    validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    // Aqui se agrega un console.log 
+    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
+    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
   });
 
   function validarFormulario() {
@@ -26,24 +36,30 @@ document.addEventListener("DOMContentLoaded", function () {
     let esValido = true;
 
     // Valida el campo usuario
+    /*
     if (usuario.value.trim() === "") {
       esValido = false;
-      alert(porFavorIngrese + "el usuario.");
+      alert(`${porFavorIngrese} el usuario`);
       usuario.focus();
     }
+    */
+    usuario.value.trim() === "" ? (esValido = false, alert(`${porFavorIngrese} el usuario`), usuario.focus()) : null;
 
     // Valida el campo contraseña
+    /*
     if ((esValido) && (password.value.trim() === "")) {
       esValido = false;
-      alert(porFavorIngrese + "su contraseña.");
+      alert(`${porFavorIngrese} su contraseña.`);
       password.focus();
     }
+    */
+    (esValido && password.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su contraseña.`), password.focus()) : null;
 
     // Valida el campo repetir contraseña
     if (esValido) {
       if (repetirPassword.value.trim() === "") {
         esValido = false;
-        alert(porFavorIngrese + "la repeticion de su contraseña.");
+        alert(`${porFavorIngrese} la repeticion de su contraseña.`);
         repetirPass.focus();
       } else if (!(password.value.trim() === repetirPassword.value.trim())) {
         esValido = false;
@@ -56,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (esValido) {
       if (email.value.trim() === "") {
         esValido = false;
-        alert(porFavorIngrese + "su dirección de correo electrónico.");
+        alert(`${porFavorIngrese} su dirección de correo electrónico.`);
         email.focus();
       } else if (!validarEmail(email.value)) {
         esValido = false;

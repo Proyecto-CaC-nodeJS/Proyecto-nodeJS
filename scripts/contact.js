@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
+
+    /*
     if (validarFormulario()) {
       // Si el formulario es válido, puedes enviar los datos
       console.log("Formulario válido. Enviando datos...");
@@ -21,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // Hace un reset de los campos
       this.reset(); 
     }
+    */
+   
+    //
+    validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    // Aqui se agrega un console.log 
+    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
+    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
   });
 
   function validarFormulario() {
@@ -28,24 +37,31 @@ document.addEventListener("DOMContentLoaded", function () {
     let esValido = true;
 
     // Valida el campo nombre
+    /*
     if (nombre.value.trim() === "") {
       esValido = false;
       alert(porFavorIngrese + "su nombre.");
       nombre.focus();
     }
+    */
+    nombre.value.trim() === "" ? (esValido = false, alert(`${porFavorIngrese} su nombre.`), nombre.focus()) : null;
 
     // Valida el campo apellido
+    /*
     if ((esValido) && (apellido.value.trim() === "")) {
       esValido = false;
-      alert(porFavorIngrese + "su apellido.");
+      alert(`${porFavorIngrese} su apellido.`);
       apellido.focus();
     }
+    */    
+    (esValido && apellido.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su apellido.`), 
+    apellido.focus()) : null;
 
     // Valida el campo email
     if (esValido) {
       if (email.value.trim() === "") {
         esValido = false;
-        alert(porFavorIngrese + "su dirección de correo electrónico.");
+        alert(`${porFavorIngrese} su dirección de correo electrónico.`);
         email.focus();
       } else if (!validarEmail(email.value)) {
         esValido = false;
@@ -55,13 +71,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Valida el campo asunto
+    /*
     if ((esValido) && (asunto.value.trim() === "")) {
       esValido = false;
       alert(porFavorIngrese + "el asunto.");
       asunto.focus();
     }
+    */
+    (esValido && asunto.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} el asunto.`), 
+    asunto.focus()) : null;
 
     // Valida el campo teléfono (opcional)
+    /*
     if (esValido) {
       if (!validarTelefono(telefono.value)) {
         esValido = false;
@@ -69,13 +90,20 @@ document.addEventListener("DOMContentLoaded", function () {
         telefono.focus();
       }
     }
+    */
+    esValido && !validarTelefono(telefono.value) ? (esValido = false, alert("El formato del teléfono no es válido."),
+    telefono.focus()) : null;
 
     // Valida el campo mensaje
+    /*
     if ((esValido) && mensaje.value.trim() === "") {
       esValido = false;
       alert(porFavorIngrese + "un mensaje.");
       mensaje.focus();
     }
+    */
+    (esValido && mensaje.value.trim() === "") ? (esValido = false, alert(porFavorIngrese + "un mensaje."), 
+    mensaje.focus()) : null;
 
     return esValido;
   }

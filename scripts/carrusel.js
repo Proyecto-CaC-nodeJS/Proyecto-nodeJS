@@ -7,8 +7,8 @@ const nextButton = document.getElementById('nextBtn');
 
 function showSlide() {
     slides.forEach((slide, index) => {
-        slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
-    });
+    slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
+  });
 }
 
 function changeSlide(direction) {
