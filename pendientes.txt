@@ -2,6 +2,12 @@
 
 - que no se redimensione los forms cuando se activa el hovere de los botones
 
+- agregar a los footers los colores de cada pagina
+  Hecho
+
+- agregar que las imagenes tambien redirijan a las paginas
+  Hecho
+
 - agregar en las validaciones las preguntas con binarios o ternarios lo que se pueda
   Hecho
 
@@ -14,7 +20,7 @@
   Punto 2
 
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
-  Falta terminar
+  Hecho
 
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
 
