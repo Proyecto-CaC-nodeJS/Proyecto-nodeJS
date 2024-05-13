@@ -57,7 +57,7 @@ h3 {
 /* Estilo para los enlaces a la derecha con texto contorneado */
 .navbar-right a {
     /* Contorno alrededor del texto (color y ancho) */
-    -webkit-text-stroke: 2px #050147;
+    -webkit-text-stroke: 2px #470101;
 }
 
 /* ------------------ front ---------------- */
@@ -74,15 +74,25 @@ h3 {
 }
 
 .portada h2 {
-    font-size: 4.1em; /* Tamaño de fuente de 36 píxeles */
-    margin-top: 0px; /* Sin margen superior */
-    font-family: 'Scorpion-Regular'; /* Familia de fuentes personalizada con respaldo de fuentes genéricas sans-serif */
-    color: #6358ff; /* Color del interior del texto */
-    -webkit-text-stroke: 2px #ff1717; /* Contorno alrededor del texto */
-    position: absolute; /* Establece el texto como posición absoluta */
+    /* Tamaño de fuente de 36 píxeles */
+    font-size: 4.1em;
+    /* Sin margen superior */
+    margin-top: 0px;
+    /* Familia de fuentes personalizada con respaldo de fuentes genéricas sans-serif */
+    font-family: 'Scorpion-Regular';
+    /* Color del interior del texto */
+    color: #ff5858;
+    /* Contorno alrededor del texto */
+    -webkit-text-stroke: 2px #ff1717;
+    /* Establece el texto como posición absoluta */
+    position: absolute;
+    
     top: 50%; /* Lo coloca en la mitad superior del contenedor */
+    
     left: 50%; /* Lo coloca en el centro horizontal del contenedor */
+    
     transform: translate(-50%, -50%); /* Lo centra vertical y horizontalmente */
+    
     animation: neon 1s ease-in-out infinite alternate; /* Animación para el efecto parpadeante */
 }
 
@@ -107,7 +117,7 @@ h3 {
     top: 40%; /* Lo coloca en el centro verticalmente */
     left: 50%; /* Lo coloca en el centro horizontalmente */
     transform: translate(-50%, -50%); /* Centra el título completamente */
-    color: #5b58ff; /* Color del texto */
+    color: #ff5858; /* Color del texto */
     padding: 9.5%; /* Espacio interior del título */
     font-size: 2.5em;
     text-align: center;
@@ -131,7 +141,7 @@ h3 {
 }
 
 /*--  juegos  --*/
-.consoles{
+.games{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,9 +149,9 @@ h3 {
     margin: auto;
 }
 
-.consoles img{
+.games img{
     width: 0px;
-    height: 60vh;
+    height: 40vh;
     flex-grow: 1;
     object-fit: cover;
     opacity: .4;
@@ -156,7 +166,7 @@ h3 {
     border-radius: 0 10px 10px 0;
 }
 
-.consoles img:hover{
+.games img:hover{
     cursor: crosshair;
     width: 200px;
     opacity: 1;
@@ -164,14 +174,15 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    .consoles {
+    .games {
         max-width: 90%;
         /* Cambia la altura a automática para ajustar el contenido */
         max-height: 70vh;
     }
 
-    .consoles img {
-        max-width: 100%; /* Ajusta el ancho de la imagen al 100% */
+    .games img {
+        /* Ajusta el ancho de la imagen al 100% */
+        max-width: 100%;
     }
 }
 
@@ -223,10 +234,12 @@ h3 {
 }
 
 /* ------------------ API ---------------- */
+/* Estilos para el contenedor principal de la sección de Twitch. */
 .twitch-section {
-    /* Estilos para el contenedor principal de la sección de Twitch. */
-    text-align: center; /* Centra el texto en el contenedor. */
-    background-color: #000000; /* Establece el color de fondo a negro. */
+    /* Centra el texto en el contenedor. */
+    text-align: center;
+    /* Establece el color de fondo a negro. */
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
 }
@@ -234,7 +247,7 @@ h3 {
 .twitch-titulo {
     /* Estilos para el título "STREAMS DE VALORANT". */
     font-size: 48px; /* Establece el tamaño de fuente en 48 píxeles. */
-    color: #6958ff; /* Establece el color del texto en un tono de naranja. */
+    color: #ff5858; /* Establece el color del texto en un tono de naranja. */
 }
 
 .streams {
