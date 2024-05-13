@@ -12,50 +12,24 @@ document.addEventListener("DOMContentLoaded", function () {
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    /*
-    if (validarFormulario()) {
-      // Si el formulario es válido, puedes enviar los datos
-      console.log("Formulario válido. Enviando datos...");
-
-      // Si el formulario es válido, lo informa en pantalla
-      alert('¡ Datos enviados correctamente !');
-
-      // Hace un reset de los campos
-      this.reset(); 
-    }
-    */
-   
     // Si el formulario es válido, lo informa en pantalla
     validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
-    // Aqui se agrega un console.log 
+
+    // Si el formulario es válido, consola y pantalla
     //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
-    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
-  });
+    //alert('¡Datos enviados correctamente!'), this.reset()) : null;  });
 
   function validarFormulario() {
     const porFavorIngrese = "Por favor, ingrese ";
     let esValido = true;
 
     // Valida el campo nombre
-    /*
-    if (nombre.value.trim() === "") {
-      esValido = false;
-      alert(porFavorIngrese + "su nombre.");
-      nombre.focus();
-    }
-    */
-    nombre.value.trim() === "" ? (esValido = false, alert(`${porFavorIngrese} su nombre.`), nombre.focus()) : null;
+    nombre.value.trim() === "" ? (esValido = false, alert(`${porFavorIngrese} su nombre.`),
+    nombre.focus()) : null;
 
     // Valida el campo apellido
-    /*
-    if ((esValido) && (apellido.value.trim() === "")) {
-      esValido = false;
-      alert(`${porFavorIngrese} su apellido.`);
-      apellido.focus();
-    }
-    */    
-    (esValido && apellido.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su apellido.`), 
-    apellido.focus()) : null;
+    (esValido && apellido.value.trim() === "") ? (esValido = false, 
+    alert(`${porFavorIngrese} su apellido.`), apellido.focus()) : null;
 
     // Valida el campo email
     if (esValido) {
@@ -71,37 +45,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Valida el campo asunto
-    /*
-    if ((esValido) && (asunto.value.trim() === "")) {
-      esValido = false;
-      alert(porFavorIngrese + "el asunto.");
-      asunto.focus();
-    }
-    */
-    (esValido && asunto.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} el asunto.`), 
-    asunto.focus()) : null;
+    (esValido && asunto.value.trim() === "") ? (esValido = false, 
+    alert(`${porFavorIngrese} el asunto.`), asunto.focus()) : null;
 
     // Valida el campo teléfono (opcional)
-    /*
-    if (esValido) {
-      if (!validarTelefono(telefono.value)) {
-        esValido = false;
-        alert("El formato del teléfono no es válido.");
-        telefono.focus();
-      }
-    }
-    */
-    esValido && !validarTelefono(telefono.value) ? (esValido = false, alert("El formato del teléfono no es válido."),
-    telefono.focus()) : null;
+    esValido && !validarTelefono(telefono.value) ? (esValido = false, 
+    alert("El formato del teléfono no es válido."), telefono.focus()) : null;
 
     // Valida el campo mensaje
-    /*
-    if ((esValido) && mensaje.value.trim() === "") {
-      esValido = false;
-      alert(porFavorIngrese + "un mensaje.");
-      mensaje.focus();
-    }
-    */
     (esValido && mensaje.value.trim() === "") ? (esValido = false, alert(porFavorIngrese + "un mensaje."), 
     mensaje.focus()) : null;
 

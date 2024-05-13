@@ -7,25 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    /*
-    if (validarFormulario()) {
-      // Si el formulario es válido, puedes enviar los datos
-      console.log("Formulario válido. Enviando datos...");
-
-      // Si el formulario es válido, lo informa en pantalla
-      alert('¡ Datos enviados correctamente !');
-
-      // Hace un reset de los campos
-      this.reset(); 
-    }
-    */
-
     // Si el formulario es válido, lo informa en pantalla
     validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
-    // Aqui se agrega un console.log 
+
+    // Si el formulario es válido, consola y pantalla
     //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
-    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
-  });
+    //alert('¡Datos enviados correctamente!'), this.reset()) : null;  });
+  })
 
   function validarFormulario() {
     const porFavorIngrese = "Por favor, ingrese ";
