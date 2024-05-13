@@ -1,4 +1,5 @@
 /*  Utilizacion de API de twitch  */
+
 let clinetId = "9rf7xtm388s42wcizio6fdd0vwpkw6";
 let clinetSecret = "d2abzmvl3y0in7toj04rho6k4bl42k";
 
@@ -99,7 +100,6 @@ function renderStreams(data) {
         }
     });
 }
-
 
 async function getTwitchData() {
     const authData = await getTwitchAuthorization();
