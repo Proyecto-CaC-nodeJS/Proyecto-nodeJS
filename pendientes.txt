@@ -20,9 +20,10 @@
   Punto 2
 
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
-  Hecho
+  Falta controlar
 
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
+  Falta controlar
 
 - terminar pagina fps basandome en la pagina de sega
   Falta terminar con texto e imagenes
