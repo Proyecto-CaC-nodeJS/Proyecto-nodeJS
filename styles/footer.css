@@ -6,6 +6,7 @@ footer {
     background: linear-gradient(#000000, #7512e6);
     color: #ffffff;
     padding: 20px;
+    margin-top: 30px;
 }
 
 .left-section ul, .right-section ul {
@@ -78,7 +79,7 @@ footer {
         width: 20vw;
         height: 25vh;
     }
-    
+
     .center-section p{
         font-size: 5%;
     }

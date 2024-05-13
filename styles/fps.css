@@ -1,9 +1,7 @@
 /*  Estilos para fps  */
 
-/* Estilos generales */
+/*  Body  */
 body {
-    margin: 0;
-    padding: 0;
     background: linear-gradient(to left, #0a0a0a, #232F40, #0a0a0a);
     justify-content: center;
     align-items: center;
@@ -13,13 +11,13 @@ h1 {
     font-family: 'Scorpion-Regular';
     background: #0000001c;
     border-radius: 10px 10px 10px 10px;
-    color: #5863ff;
+    color: #ff4949;
     animation: neon 1.5s infinite alternate;
 }
 
 h2 {
     font-family: 'Scorpion-Regular';
-    color: #5863ff;
+    color: #ff4949;
     animation: neon 1.5s infinite alternate;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -30,7 +28,7 @@ p{
     font-family: 'Arimo';
     font-size: 0.7em;
     font-style: italic;
-    color: #5863ff;
+    color: #ff4949;
     text-align: left;
     margin: 30px;
     padding-bottom: 20px;
@@ -39,15 +37,15 @@ p{
 h3 {
     font-family: 'Scorpion-Regular';
     margin-top: 10px;
-    color: #5863ff;
+    color: #ff4949;
 }
 
 @keyframes neon {
     0% {
-        text-shadow: 0 0 3px #1521c7e1, 0 0 10px #1521c7, 0 0 10px #1521c7
+        text-shadow: 0 0 3px #c71515e1, 0 0 10px #c71515, 0 0 10px #c71515
     }
     100% {
-        text-shadow: 0 0 10px #1521c7e1, 0 0 30px #1521c7e1, 0 0 40px #1521c7e1
+        text-shadow: 0 0 10px #c71515e1, 0 0 30px #c71515e1, 0 0 40px #c71515e1
     }
 }
 
@@ -62,53 +60,7 @@ h3 {
     -webkit-text-stroke: 2px #050147;
 }
 
-/* Estilo para el menú desplegable */
-.mobile-menu {
-    display: none; /* Ocultar el menú en pantallas grandes */
-    background: linear-gradient(#000000, #e6d112, #000000);
-    position: absolute;
-    top: 75px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    transition: transform 0.3s;
-    z-index: 1; /* Asegura que el menú esté en una capa por encima del contenido */
-}
-
-.mobile-menu a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.mobile-menu a:nth-child(1){
-    -webkit-text-stroke: 0.7px #130031; /* Contorno alrededor del texto (color y ancho) */
-    color: #842cff; /* Color del interior del texto */
-}
-
-.mobile-menu a:nth-child(2){
-    -webkit-text-stroke: 0.7px #0a0091; /* Contorno alrededor del texto (color y ancho) */
-    color: #1900ff; /* Color del interior del texto */
-}
-
-.mobile-menu a:nth-child(3){
-    -webkit-text-stroke: 0.7px #960000; /* Contorno alrededor del texto (color y ancho) */
-    color: #ff2a2a; /* Color del interior del texto */
-}
-
-.mobile-menu a:nth-child(4){
-    -webkit-text-stroke: 0.2px #0f7e00; /* Contorno alrededor del texto (color y ancho) */
-    color: #34be02; /* Color del interior del texto */
-}
-
-.mobile-menu a:nth-child(5){
-    -webkit-text-stroke: 0.2px #400085; /* Contorno alrededor del texto (color y ancho) */
-    color: #8b1fff; /* Color del interior del texto */
-}
-
-
-/* front ---------------- */
+/* ------------------ front ---------------- */
 .portada {
     position: relative; /* Establece la posición del elemento como relativa */
     text-align: center; /* Centra el contenido de texto en el elemento */
@@ -126,7 +78,7 @@ h3 {
     margin-top: 0px; /* Sin margen superior */
     font-family: 'Scorpion-Regular'; /* Familia de fuentes personalizada con respaldo de fuentes genéricas sans-serif */
     color: #6358ff; /* Color del interior del texto */
-    -webkit-text-stroke: 2px #2e17ff; /* Contorno alrededor del texto */
+    -webkit-text-stroke: 2px #ff1717; /* Contorno alrededor del texto */
     position: absolute; /* Establece el texto como posición absoluta */
     top: 50%; /* Lo coloca en la mitad superior del contenedor */
     left: 50%; /* Lo coloca en el centro horizontal del contenedor */
@@ -168,7 +120,7 @@ h3 {
     text-align: center; /* Centrar el contenido dentro del contenedor */
     font-size: 2em;
     border-radius: 10px;
-    box-shadow: 0 0 20px 1px rgba(25, 0, 255, 0.5);
+    box-shadow: 0 0 20px 1px rgba(255, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px) {
@@ -178,7 +130,7 @@ h3 {
     }
 }
 
-/* ------------------ consolas ---------------- */
+/*--  juegos  --*/
 .consoles{
     display: flex;
     justify-content: center;
@@ -214,7 +166,8 @@ h3 {
 @media screen and (max-width: 768px) {
     .consoles {
         max-width: 90%;
-        max-height: 70vh; /* Cambia la altura a automática para ajustar el contenido */
+        /* Cambia la altura a automática para ajustar el contenido */
+        max-height: 70vh;
     }
 
     .consoles img {
@@ -362,6 +315,5 @@ h3 {
 }
 
 footer {
-    background: linear-gradient(#000000, #e10013);
-    margin-top: 30px;
+    background: linear-gradient(#000000, #c71515e1);
 }

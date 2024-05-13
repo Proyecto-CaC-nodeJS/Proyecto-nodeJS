@@ -47,7 +47,7 @@
     /* Contorno alrededor del texto (color y ancho) */
     -webkit-text-stroke: 0.2px #7e1720;
     /* Color del interior del texto */
-    color: #e10013;
+    color: #ff0015;
 }
 
 /* Cambiar el color y el contorno al pasar el mouse por encima de "Left" */
@@ -74,7 +74,9 @@
     color: #842cff;
 }
 
-/* Estilo para el botón hamburguesa */
+
+/*  Moviles  */
+/*  Estilo para el botón hamburguesa  */
 .mobile-menu-button {
     /* Ocultar el botón en pantallas grandes */
     display: none;
@@ -103,7 +105,8 @@
     width: 100%;
     text-align: center;
     transition: transform 0.3s;
-    z-index: 1; /* Asegura que el menú esté en una capa por encima del contenido */
+    /* Asegura que el menú esté en una capa por encima del contenido */
+    z-index: 1;
 }
 
 .mobile-menu a {
@@ -157,4 +160,3 @@
         margin-top: 200px;
     }
 }
-/* } */

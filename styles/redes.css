@@ -39,12 +39,14 @@
     margin-top: -6px;
     left: 91.5%;
     top: 51.5%;
-    animation: slideInFromBottom 0.5s ease forwards;    
+    /* Aplicar animación al desplegar */  
+    animation: slideInFromBottom 0.5s ease forwards;
+    box-sizing: content-box;
 }
 
 /* Estilo para las imágenes dentro del menú desplegable */
 .dropdown-image {
-    /* ajusta el tamaño de las imágenes según sea necesario */
+    /* Ajusta el tamaño de las imágenes según sea necesario */
     width: 35px; 
 }
 
