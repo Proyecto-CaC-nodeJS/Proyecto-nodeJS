@@ -181,7 +181,7 @@ p {
 
     .mobile-menu.active {
         display: block;
-        transform: translateY(0);
+        top: 65px;
     }
 
     .content.menu-opened {

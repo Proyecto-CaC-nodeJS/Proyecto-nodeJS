@@ -65,6 +65,7 @@ h3 {
     position: relative; /* Establece la posición del elemento como relativa */
     text-align: center; /* Centra el contenido de texto en el elemento */
     background-color: #232F40; /* Color de fondo del banner */
+    top: -4.6vh;
 }
 
 .portada img {
@@ -89,6 +90,7 @@ h3 {
 @media screen and (max-width: 768px) {
     .portada{
         height: 150px;
+        top: -3.4vh;
     }
 
     .portada img {
