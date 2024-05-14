@@ -34,10 +34,29 @@ p{
     padding-bottom: 20px;
 }
 
+
 h3 {
     font-family: 'Scorpion-Regular';
     margin-top: 10px;
     color: #ff4949;
+}
+
+.content {
+    justify-content: center;
+
+    margin: 20px;
+}
+
+.indent {
+    justify-content: center;
+    text-align: justify;
+
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: bold;
 }
 
 @keyframes neon {
