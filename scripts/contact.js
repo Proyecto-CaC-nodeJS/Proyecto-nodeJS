@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Si el formulario es válido, consola y pantalla
     //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
     //alert('¡Datos enviados correctamente!'), this.reset()) : null;  });
-
+  });
+  
   function validarFormulario() {
     const porFavorIngrese = "Por favor, ingrese ";
     let esValido = true;
