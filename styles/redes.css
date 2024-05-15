@@ -75,4 +75,14 @@
     .dropdown-image {
         right: 100vw;
     }
+
+    .logo-redes {
+        left: 86%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .logo-redes {
+        left: 86%;
+    }
 }

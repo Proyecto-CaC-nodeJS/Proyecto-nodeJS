@@ -28,7 +28,7 @@ p {
 
 .contenedor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(2.6vw, 26vw));
+    grid-template-columns: repeat(auto-fill, minmax(2.6vw, 25.5vw));
     grid-gap: 8vw;
     padding-left: 3%;
     margin-top: 100px;
@@ -93,12 +93,12 @@ p {
         0 0 2px #672329;
     }
 
-    #lefo{
-        color: #cdde71 ;
-        text-shadow: 0 0 5px #cdde71 ,
-        0 0 2px #343c06, 
-        0 0 2px #343c06,
-        0 0 2px #4b3818;
+    #snk{
+        color: #17aefa ;
+        text-shadow: 0 0 5px #0080c0 ,
+        0 0 2px #0b415c, 
+        0 0 2px #0b415c,
+        0 0 2px #0b415c;
     }
 
     
@@ -153,12 +153,12 @@ ul{
 
 @media (hover: none) { 
         .tarjetas-titulo {
-          opacity: 1;
+            opacity: 1;
         }
         .tarjetas-imagenes img {
-          filter: blur(2px);
+            filter: blur(2px);
         }
-      }
+    }
 
 @media (max-width: 575px) {
 #qstexto{
@@ -180,7 +180,7 @@ ul{
     width: 85%;
 }
 .formulario__titulo {
-  font-size: 2.8vw;  
+    font-size: 2.8vw;  
 }
 .formulario__submit:hover{
     font-size: 1em;
@@ -215,8 +215,9 @@ ul{
 
 @media screen and (max-width: 992px) {
     .contenedor-grid {
-              grid-template-columns: 1fr; /* Esto hará que las tarjetas se muestren una debajo de la otra en pantallas más pequeñas */
-              grid-gap: 16px; /* Ajusta el espacio entre las tarjetas según tu preferencia */
+                grid-template-columns: 1fr; /* Esto hará que las tarjetas se muestren una debajo de la otra en pantallas más pequeñas */
+                grid-gap: 16px; /* Ajusta el espacio entre las tarjetas según tu preferencia */
+                font-size: 90px;
             }
     
             .tarjetas-art {

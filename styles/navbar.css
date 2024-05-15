@@ -42,20 +42,20 @@
     color: #1900ff; /* Color del interior del texto */
 }
 
-/* Cambiar el color y el contorno al pasar el mouse por encima de "FPS" */
+/* Cambiar el color y el contorno al pasar el mouse por encima de "Left" */
 .navbar-right a:nth-child(3):hover {
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #0080c0;
+    /* Color del interior del texto */
+    color: #17aefa;
+}
+
+/* Cambiar el color y el contorno al pasar el mouse por encima de "FPS" */
+.navbar-right a:nth-child(4):hover {
     /* Contorno alrededor del texto (color y ancho) */
     -webkit-text-stroke: 0.2px #7e1720;
     /* Color del interior del texto */
     color: #ff0015;
-}
-
-/* Cambiar el color y el contorno al pasar el mouse por encima de "Left" */
-.navbar-right a:nth-child(4):hover {
-    /* Contorno alrededor del texto (color y ancho) */
-    -webkit-text-stroke: 0.2px #004600;
-    /* Color del interior del texto */
-    color: #00a00d;
 }
 
 /* Cambiar el color y el contorno al pasar el mouse por encima de "CONTACTO" */
@@ -122,18 +122,18 @@
 }
 
 .mobile-menu a:nth-child(2){
-    -webkit-text-stroke: 0.7px #ffae00; /* Contorno alrededor del texto (color y ancho) */
-    color: #f2ff00; /* Color del interior del texto */
+    -webkit-text-stroke: 0.7px #0a0091; /* Contorno alrededor del texto (color y ancho) */
+    color: #1900ff; /* Color del interior del texto */
 }
 
 .mobile-menu a:nth-child(3){
-    -webkit-text-stroke: 0.7px #960000; /* Contorno alrededor del texto (color y ancho) */
-    color: #ff2a2a; /* Color del interior del texto */
+    -webkit-text-stroke: 0.2px #0080c0; /* Contorno alrededor del texto (color y ancho) */
+    color: #17aefa; /* Color del interior del texto */
 }
 
 .mobile-menu a:nth-child(4){
-    -webkit-text-stroke: 0.2px #0f7e00; /* Contorno alrededor del texto (color y ancho) */
-    color: #34be02; /* Color del interior del texto */
+    -webkit-text-stroke: 0.7px #960000; /* Contorno alrededor del texto (color y ancho) */
+    color: #ff2a2a; /* Color del interior del texto */
 }
 
 .mobile-menu a:nth-child(5){
@@ -154,6 +154,7 @@
     .mobile-menu.active {
         display: block;
         transform: translateY(0);
+        top: 65px;
     }
 
     .content.menu-opened {
