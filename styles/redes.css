@@ -70,6 +70,7 @@
     }
     .dropdown-content {
         top: 46.1%;
+        left: 86%;
     }
 
     .dropdown-image {
@@ -83,6 +84,10 @@
 
 @media screen and (max-width: 426px) {
     .logo-redes {
+        left: 86%;
+    }
+
+    .dropdown-content {
         left: 86%;
     }
 }
