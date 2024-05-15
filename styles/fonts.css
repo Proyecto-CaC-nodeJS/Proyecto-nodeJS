@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: 'Scorpion-Regular';
-    src: url('/src/fonts/Scorpion/Regular/Scorpion.ttf') format('truetype'); 
+    src: url('/src/fonts/scorpion/regular/Scorpion.ttf') format('truetype'); 
 }
 
 @font-face {
     font-family: 'Arimo';
-    src: url('/src/fonts/Arimo/Arimo-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('/src/fonts/arimo/Arimo-Italic-VariableFont_wght.ttf') format('truetype');
 }
