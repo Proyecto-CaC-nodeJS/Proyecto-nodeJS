@@ -36,6 +36,13 @@ Criterios de evaluacion
 9 - El sitio web debe estar estructurado utilizando etiquetas semánticas HTML correctamente. 
     Debe pasar la validación de https://validator.w3.org/ sin errores.
     (Mandatorio)
+    Esta casi todo controlado y corregido
+    Los que faltan verificar por las modificaciones son 
+    index
+    fps
+    sega
+    snk
+
 
 10 - Utilizar iframes y/o íconos de FontAwesome y/o fuentes locales o bien de Google Fonts.
      Es optativo incluir algún elemento de Bootstrap.
