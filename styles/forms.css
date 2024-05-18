@@ -1,26 +1,33 @@
 /*  Estilos para todos los formularios  */
+
 #access {
-    block-size: 430px;
+    /* block-size: 510px; */
+    block-size: 5% auto;
 }
 
 #account {
-    block-size: 510px;
+    /* block-size: 530px; */
+    block-size: 5% auto;
 }
 
 #contact {
-    block-size: 760px;
+    /* block-size: 770px; */
+    block-size: 5% auto;
 }
 
 #pass {
-    block-size: 230px;
+    /* block-size: 250px; */ 
+    block-size: 5% auto;
 }
 
 #register {
-    block-size: 970px;
+    /* block-size: 980px; */
+    block-size: 5% auto;
 }
 
 #user {
-    block-size: 230px;
+    /* block-size: 250px; */
+    block-size: 5%;
 }
 
 .forms {
