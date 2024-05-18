@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 - centrar y agrandar boton de ! registrate ahora ¡ en index
+=======
+- checkbox en pagina de registro o creacion de de cuenta, , 
+  si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 2
+
+- terminar pagina fps basandome en la pagina de sega
+  Falta terminar imagenes
+
+
+
+>>>>>>> 2df1fb9 (Actualizaciones varias)
 
 - centrar boton de enviar en acceso
   Hecho
 
-- que no se redimensione los forms cuando se activa el hovere de los botones
+- que no se redimensione los forms cuando se activa el hover de los botones
   Hecho
 
 - agregar a los footers los colores de cada pagina
@@ -21,19 +33,25 @@
 - agregar en las validaciones la funcion flecha
   Hecho  -->  Faltan bastantes
 
+<<<<<<< HEAD
 - checkbox en pagina de registro o creacion de de cuenta, Aceptacion de terminos y condiciones, 
   si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 2
 
+=======
+>>>>>>> 2df1fb9 (Actualizaciones varias)
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
   Hecho
 
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
   Hecho
 
+<<<<<<< HEAD
 - terminar pagina FPS basandome en la pagina de SEGA
   Falta terminar imagenes
 
+=======
+>>>>>>> 2df1fb9 (Actualizaciones varias)
 - verificar tamaños (PC escritorio, Tablet, Celular), si se verifica marcar que esta hecho en los criterios de evalucion 
   Falta verificar
 
