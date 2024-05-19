@@ -1,16 +1,67 @@
-<<<<<<< HEAD
-- centrar y agrandar boton de ! registrate ahora ¡ en index
-=======
-- checkbox en pagina de registro o creacion de de cuenta, , 
+Faltantes
+---------
+
+- checkbox en pagina de registro o creacion de de cuenta, Aceptacion de terminos y condiciones, 
   si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 2
 
-- terminar pagina fps basandome en la pagina de sega
+- centrar y agrandar boton de ! registrate ahora ¡ en index
+
+- agregar botones de ir arriba y abajo
+
+- verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 5
+
+
+
+No son indipensables
+--------------------
+
+- terminar pagina FPS basandome en la pagina de SEGA
   Falta terminar imagenes
 
+- agregar en las validaciones la funcion flecha
+  Hecho  -->  Faltan bastantes
 
 
->>>>>>> 2df1fb9 (Actualizaciones varias)
+
+Obligatorios
+------------
+
+- Punto 1  -->  Hecho.
+  por lo menos 4 páginas HTML o 4 secciones si se trata de un sitio One Page. 
+
+- Punto 2  -->  Falta terminar.
+
+
+- Punto 3  -->  Hecho.
+  verificar tamaños (PC escritorio, Tablet, Celular). 
+
+- Punto 4  -->  Hecho.
+  animacion, transformación o una transición.
+
+- Punto 5  -->  Hecho.
+  estructura HTML maquetada con Flexbox y/o Grid.
+
+- Punto 6  -->  Parcialmente - faltan bastantes.
+  verificar optimizacion de imagenes, si se verifica marcar que esta hecho en los criterios de evalucion. 
+
+- Punto 7  -->  Hecho.
+  servidor online y compartirse mediante un repositorio de Git.
+
+- Punto 8  -->  Hecho.
+  preguntar si podemos utilizar GtiHub Pages, si se verifica marcar que esta hecho en los criterios de evalucion. 
+
+- Punto 9  -->  Hecho.
+  validaciones con https://validator.w3.org/.
+
+- Punto 10  -->  Falta controlar.
+  iframes y/o íconos de FontAwesome y/o fuentes locales o bien de Google Fonts.
+
+
+
+Terminados
+-----------
 
 - centrar boton de enviar en acceso
   Hecho
@@ -30,39 +81,9 @@
 - agregar en las alertas de las validaciones lo del ${}
   Hecho
 
-- agregar en las validaciones la funcion flecha
-  Hecho  -->  Faltan bastantes
-
-<<<<<<< HEAD
-- checkbox en pagina de registro o creacion de de cuenta, Aceptacion de terminos y condiciones, 
-  si se verifica marcar que esta hecho en los criterios de evalucion 
-  Punto 2
-
-=======
->>>>>>> 2df1fb9 (Actualizaciones varias)
 - reorganizar pagina index (restructuracion del codigo referido a css y js)
-  Hecho
+  Hecho.
 
 - reorganizar pagina sega (restructuracion del codigo referido a css y js)
-  Hecho
-
-<<<<<<< HEAD
-- terminar pagina FPS basandome en la pagina de SEGA
-  Falta terminar imagenes
-
-=======
->>>>>>> 2df1fb9 (Actualizaciones varias)
-- verificar tamaños (PC escritorio, Tablet, Celular), si se verifica marcar que esta hecho en los criterios de evalucion 
-  Falta verificar
-
-- verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
-  Punto 5
-
-- verificar optimizacion de imagenes, , si se verifica marcar que esta hecho en los criterios de evalucion 
-  Punto 6  -->  Faltan bastantes Falta
-
-- preguntar si podemos utilizar GtiHub Pages, , si se verifica marcar que esta hecho en los criterios de evalucion 
-  Hecho
-
-- ultimo agregar botones de ir arriba y abajo
+  Hecho.
  
