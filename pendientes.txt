@@ -1,10 +1,6 @@
 Faltantes
 ---------
 
-- checkbox en pagina de registro o creacion de de cuenta, Aceptacion de terminos y condiciones, 
-  si se verifica marcar que esta hecho en los criterios de evalucion 
-  Punto 2
-
 - verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 5
   
@@ -32,8 +28,8 @@ Obligatorios
 - Punto 1  -->  Hecho.
   por lo menos 4 páginas HTML o 4 secciones si se trata de un sitio One Page. 
 
-- Punto 2  -->  Falta terminar.
-
+- Punto 2  -->  Heccho.
+  solo se agrego un checkbox no se hizo la validacion
 
 - Punto 3  -->  Hecho.
   verificar tamaños (PC escritorio, Tablet, Celular). 
@@ -63,6 +59,10 @@ Obligatorios
 
 Terminados
 -----------
+
+- checkbox en pagina de registro o creacion de de cuenta, Aceptacion de terminos y condiciones, 
+  si se verifica marcar que esta hecho en los criterios de evalucion 
+  Hecho
 
 - centrar boton de enviar en acceso
   Hecho
