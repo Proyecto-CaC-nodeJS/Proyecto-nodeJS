@@ -5,17 +5,18 @@ Faltantes
   si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 2
 
+- verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
+  Punto 5
+  
 - centrar y agrandar boton de ! registrate ahora ¡ en index
 
 - agregar botones de ir arriba y abajo
 
-- verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
-  Punto 5
 
 
 
-No son indipensables
---------------------
+No indipensables
+----------------
 
 - terminar pagina FPS basandome en la pagina de SEGA
   Falta terminar imagenes
