@@ -81,7 +81,7 @@ h3 {
     color: #6358ff; /* Color del interior del texto */
     -webkit-text-stroke: 2px #2e17ff; /* Contorno alrededor del texto */
     position: absolute; /* Establece el texto como posición absoluta */
-    top: 50%; /* Lo coloca en la mitad superior del contenedor */
+    top: 47%; /* Lo coloca en la mitad superior del contenedor */
     left: 50%; /* Lo coloca en el centro horizontal del contenedor */
     transform: translate(-50%, -50%); /* Lo centra vertical y horizontalmente */
     animation: neon 1s ease-in-out infinite alternate; /* Animación para el efecto parpadeante */
@@ -319,5 +319,10 @@ h3 {
 /* ------------------ footer ---------------- */
 footer {
     background: linear-gradient(#000000, #1521c7e1);
+}
+
+footer p{
+    margin: 0px;
+    padding-bottom: 0px;
 }
 /* ------------------ SEGA ---------------- */

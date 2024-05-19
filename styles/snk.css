@@ -320,4 +320,9 @@ h3 {
 footer {
     background: linear-gradient(#000000, #1521c7e1);
 }
+
+footer p{
+    margin: 0px;
+    padding-bottom: 0px;
+}
 /* ------------------ SEGA ---------------- */

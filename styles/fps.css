@@ -383,3 +383,8 @@ h3 {
 footer {
     background: linear-gradient(#000000, #c71515e1);
 }
+
+footer p{
+    margin: 0px;
+    padding-bottom: 0px;
+}
