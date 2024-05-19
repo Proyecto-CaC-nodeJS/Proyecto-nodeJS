@@ -141,6 +141,11 @@
     color: #8b1fff; /* Color del interior del texto */
 }
 
+.mobile-menu a:nth-child(6){
+    -webkit-text-stroke: 0.2px #400085; /* Contorno alrededor del texto (color y ancho) */
+    color: #8b1fff; /* Color del interior del texto */
+}
+
 /* Estilo para mostrar u ocultar el menú desplegable */
 @media screen and (max-width: 768px) {
     .navbar-right {
