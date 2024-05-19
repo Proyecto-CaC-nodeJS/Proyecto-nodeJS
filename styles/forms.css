@@ -62,6 +62,11 @@
     font-family: 'Arimo', sans-serif;
 }
 
+.frm-check {
+    color: #A6A6A6;
+    text-shadow: 0 0 5px #a862f6, 0 0 2px #7512e6, 0 0 2px #7512e6, 0 0 2px #7512e6;
+}
+
 .frm-required, .frm-asterisk {
     width: 80%; 
     font-size: 0.75em;
