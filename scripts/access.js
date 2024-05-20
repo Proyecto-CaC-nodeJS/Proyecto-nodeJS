@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let esValido = true;
 
     // Valida el campo usuario
-    (usuario.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su usuario.`), 
+    validarCampoVacio(usuario.value) ? (esValido = false, alert(`${porFavorIngrese} el usuario`),
     usuario.focus()) : null;
 
     // Valida el campo contraseña
-    (esValido && password.value.trim() === "") ? (esValido = false, 
-    alert(`${porFavorIngrese} contraseña.`), password.focus()) : null;
-
-    return esValido;
-  }
+    (esValido && validarCampoVacio(password.value)) ? (esValido = false, 
+    alert(`${porFavorIngrese} la contraseña.`), password.focus()) : null;
+    
+  return esValido;
+}
 });

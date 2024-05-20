@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let esValido = true;
 
     // Valida el campo Email
-    if (email.value.trim() === "") {
-      esValido = false;
+    if (validarCampoVacio(email.value)) {
+        esValido = false;
       alert(`${porFavorIngrese} su dirección de correo electrónico.`);
       email.focus();
     } else if (!validarEmail(email.value)) {

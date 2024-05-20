@@ -15,5 +15,15 @@ const validarTelefono = (telefono) => {
     return telefonoRegex.test(telefono);
 };
 
+// Función para validar un campo vacio
+const validarCampoVacio = (campo) => (campo.trim() === "");
+
+
+const validarCheckBox = (checkbox) => checkbox.checked;
+//const validarCheckBox = (checkbox) => {
+//    return checkbox.checked;
+//};
+
+
 // Se podrian poner los que se repiten en varios formularios por ejemplo una funcion que valide si el usuario
 // esta vacio o si la cotraseña es vacia y demas

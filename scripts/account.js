@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const password = document.querySelector("#password");
   const repetirPassword = document.querySelector("#repeat-password");
   const email = document.querySelector("#email");
+  const terminos = document.querySelector("#terminos");
 
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -23,11 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let esValido = true;
 
     // Valida el campo usuario
-    usuario.value.trim() === "" ? (esValido = false, alert(`${porFavorIngrese} el usuario`), 
+    validarCampoVacio(usuario.value) ? (esValido = false, alert(`${porFavorIngrese} el usuario`),
     usuario.focus()) : null;
 
     // Valida el campo contraseña
-    (esValido && password.value.trim() === "") ? (esValido = false, alert(`${porFavorIngrese} su contraseña.`), password.focus()) : null;
+    (esValido && validarCampoVacio(password.value)) ? (esValido = false, 
+    alert(`${porFavorIngrese} la contraseña.`), password.focus()) : null;
 
     // Valida el campo repetir contraseña
     if (esValido) {
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         repetirPass.focus();
       } else if (!(password.value.trim() === repetirPassword.value.trim())) {
         esValido = false;
-        alert("Las dos contraseñas no coinciden.");
+        alert("Las contraseñas no coinciden.");
         repetirPassword.focus();
       }
     }
@@ -55,6 +57,11 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
+    // Valida el campo contraseña
+    (esValido && validarCheckBox(terminos)) ? (esValido = false, 
+      alert(`Por favor acepte los terminos y condiciones.`), terminos.focus()) : null;
+
+      alert("Terminos tiene " + terminos.value);
     return esValido;
   }
 });
