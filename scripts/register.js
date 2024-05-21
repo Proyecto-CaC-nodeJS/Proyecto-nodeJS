@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const email = document.querySelector("#email");
   const telefono = document.querySelector("#telefono");
   const comentario = document.querySelector("#comentario");
+  const terminos = document.querySelector("#terminos");
 
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();

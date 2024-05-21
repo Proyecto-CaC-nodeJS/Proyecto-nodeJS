@@ -8,3 +8,31 @@ input:focus + .frm-label {
     margin-left: 5px;
     margin-top: -100px;
 }
+
+input:checked {
+    accent-color: black;
+    background-color: 1px solid #7900ff;
+}
+
+/*
+input:blank {
+    accent-color: black;
+    background-color: 1px solid #7900ff;
+}
+
+input[type="checkbox"] {
+    color: black;
+    accent-color: black;
+    outline: 1px solid #7900ff;
+}
+
+input[type="radio"] {
+    accent-color: black;
+    outline: 1px solid #7900ff;
+}
+
+input[type="range"] {
+    accent-color: black;
+    outline: 1px solid #7900ff;
+}
+*/

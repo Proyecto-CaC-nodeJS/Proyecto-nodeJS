@@ -19,7 +19,7 @@ const validarTelefono = (telefono) => {
 const validarCampoVacio = (campo) => (campo.trim() === "");
 
 
-const validarCheckBox = (checkbox) => checkbox.checked;
+const validarCheckBox = (checkbox) => (checkbox.checked === true);
 //const validarCheckBox = (checkbox) => {
 //    return checkbox.checked;
 //};

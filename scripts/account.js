@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const password = document.querySelector("#password");
   const repetirPassword = document.querySelector("#repeat-password");
   const email = document.querySelector("#email");
-  const terminos = document.querySelector("#terminos");
+  //const terminos = document.querySelector("#terminos").checked;
+  const terminos = document.querySelector('input[type=checkbox');
 
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -61,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
     (esValido && validarCheckBox(terminos)) ? (esValido = false, 
       alert(`Por favor acepte los terminos y condiciones.`), terminos.focus()) : null;
 
-      alert("Terminos tiene " + terminos.value);
+      alert("Terminos tiene " + terminos.validarCheckBox);
     return esValido;
   }
 });
