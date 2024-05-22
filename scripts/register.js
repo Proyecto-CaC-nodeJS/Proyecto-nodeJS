@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     */
 
     // Si el formulario es válido, lo informa en pantalla
-    validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    validarFormulario() ? (alert('¡ Datos enviados correctamente !'), this.reset()) : null;
 
     // Si el formulario es válido, consola y pantalla
     //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
@@ -131,9 +131,14 @@ document.addEventListener("DOMContentLoaded", function () {
       comentario.focus();
     }
     */
+
     (esValido && comentario.value.trim() === "") ? (esValido = false, 
     alert(`${porFavorIngrese} un comentario.`), comentario.focus()) : null;
 
-      return esValido;
+    // Valida el campo contraseña
+    (esValido && !validarCheckBox(terminos)) ? (esValido = false, 
+      alert(`Por favor acepte los terminos y condiciones.`), terminos.focus()) : null;
+
+    return esValido;
   }
 });

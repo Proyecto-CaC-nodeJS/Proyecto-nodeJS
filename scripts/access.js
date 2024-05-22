@@ -9,8 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
 
     // Si el formulario es válido, lo informa en pantalla
-    validarFormulario() ? (alert('¡Datos enviados correctamente!'), this.reset()) : null;
-
+//    validarFormulario() ? (alert('¡ Datos validados correctamente !'), this.reset()) : null;
+    // Si el usuario se loguea a index.html
+    validarFormulario() ? (alert('¡ Datos validados correctamente !'), window.location.href = '../index.html')
+     : this.reset(), null;
+        ;
     // Si el formulario es válido, consola y pantalla
     //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
     //alert('¡Datos enviados correctamente!'), this.reset()) : null;
@@ -28,6 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
     (esValido && validarCampoVacio(password.value)) ? (esValido = false, 
     alert(`${porFavorIngrese} la contraseña.`), password.focus()) : null;
     
-  return esValido;
-}
+    return esValido;
+  }
 });
