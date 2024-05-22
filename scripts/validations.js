@@ -18,11 +18,8 @@ const validarTelefono = (telefono) => {
 // Función para validar un campo vacio
 const validarCampoVacio = (campo) => (campo.trim() === "");
 
-
+// Función para validar un un checkbox
 const validarCheckBox = (checkbox) => (checkbox.checked === true);
-//const validarCheckBox = (checkbox) => {
-//    return checkbox.checked;
-//};
 
 
 // Se podrian poner los que se repiten en varios formularios por ejemplo una funcion que valide si el usuario
