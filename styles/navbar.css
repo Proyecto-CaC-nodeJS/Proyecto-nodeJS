@@ -39,10 +39,11 @@
 .navbar-right a:nth-child(2):hover {
     /* Contorno alrededor del texto (color y ancho) */
     -webkit-text-stroke: 0.2px #0a0091;
-    color: #1900ff; /* Color del interior del texto */
+    /* Color del interior del texto */
+    color: #1900ff;
 }
 
-/* Cambiar el color y el contorno al pasar el mouse por encima de "Left" */
+/* Cambiar el color y el contorno al pasar el mouse por encima de "SNK" */
 .navbar-right a:nth-child(3):hover {
     /* Contorno alrededor del texto (color y ancho) */
     -webkit-text-stroke: 0.2px #0080c0;
@@ -82,9 +83,9 @@
     display: none;
     cursor: pointer;
     padding: 10px;
-    /* Cambia el color según tus preferencias */
     background: #000000;
     color: #fff;
+
 }
 
 .mobile-menu-button .bar {
