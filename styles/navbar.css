@@ -105,8 +105,12 @@
     width: 100%;
     text-align: center;
     transition: transform 0.3s;
-    /* Asegura que el menú esté en una capa por encima del contenido */
+    /* Me asegura que el menú esté en una capa por encima del contenido */
     z-index: 1;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
 }
 
 .mobile-menu a {
@@ -117,33 +121,50 @@
 }
 
 .mobile-menu a:nth-child(1){
-    -webkit-text-stroke: 0.7px #130031; /* Contorno alrededor del texto (color y ancho) */
-    color: #842cff; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    /* -webkit-text-stroke: 0.7px #130031; */
+    -webkit-text-stroke: 0.2px #130031;
+    /* Color del interior del texto */
+    color: #842cff;
 }
 
 .mobile-menu a:nth-child(2){
-    -webkit-text-stroke: 0.7px #0a0091; /* Contorno alrededor del texto (color y ancho) */
-    color: #1900ff; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    /*-webkit-text-stroke: 0.7px #0a0091;*/
+    -webkit-text-stroke: 0.2px #0a0091;
+    /* Color del interior del texto */
+    color: #1900ff;
 }
 
 .mobile-menu a:nth-child(3){
-    -webkit-text-stroke: 0.2px #0080c0; /* Contorno alrededor del texto (color y ancho) */
-    color: #17aefa; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    -webkit-text-stroke: 0.2px #0080c0;
+     /* Color del interior del texto */
+    color: #17aefa;
 }
 
 .mobile-menu a:nth-child(4){
-    -webkit-text-stroke: 0.7px #960000; /* Contorno alrededor del texto (color y ancho) */
-    color: #ff2a2a; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    /*-webkit-text-stroke: 0.7px #960000;*/
+    -webkit-text-stroke: 0.2px #960000;
+    /* Color del interior del texto */
+    color: #ff2a2a;
 }
 
 .mobile-menu a:nth-child(5){
-    -webkit-text-stroke: 0.2px #400085; /* Contorno alrededor del texto (color y ancho) */
-    color: #8b1fff; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    /*-webkit-text-stroke: 0.2px #400085;*/
+    -webkit-text-stroke: 0.2px #130031;
+    /* Color del interior del texto */
+    color: #8b1fff;
 }
 
 .mobile-menu a:nth-child(6){
-    -webkit-text-stroke: 0.2px #400085; /* Contorno alrededor del texto (color y ancho) */
-    color: #8b1fff; /* Color del interior del texto */
+    /* Contorno alrededor del texto (color y ancho) */
+    /*-webkit-text-stroke: 0.2px #400085;*/
+    -webkit-text-stroke: 0.2px #130031;
+    /* Color del interior del texto */
+    color: #8b1fff;
 }
 
 /* Estilo para mostrar u ocultar el menú desplegable */
