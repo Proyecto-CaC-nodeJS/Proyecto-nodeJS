@@ -76,6 +76,10 @@ h3 {
     -webkit-text-stroke: 2px #470101;
 }
 
+.navbar a {
+    color: #e44c4c;
+}
+
 /* --  Front  -- */
 /* --  Las portadas se podrian pasar a un CSS independiente y llamarlo desde SEGA, SNK yFPS  -- */
 /* --  con esto se achica el coodigo  -- */

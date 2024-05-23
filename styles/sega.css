@@ -60,6 +60,9 @@ h3 {
     -webkit-text-stroke: 2px #050147;
 }
 
+.navbar a{
+    color: #44a4fd;
+}
 /* ------------------ front ---------------- */
 .portada {
     position: relative; /* Establece la posición del elemento como relativa */
@@ -281,7 +284,7 @@ h3 {
     /* Estilos para los títulos dentro de .stream-container. */
     font-size: 1rem; /* Establece el tamaño de fuente en 1 rem. */
     animation: none;
-    color: #fca23c; /* Establece el color del texto en rojo. */
+    color: #4f3cfc; /* Establece el color del texto en rojo. */
     line-height: 1.5; /* Establece la altura de línea en 1.5 veces el tamaño de fuente. */
     margin-top: 0; /* Elimina el margen superior del título. */
     text-align: left; /* Alinea el texto a la izquierda. */
