@@ -41,7 +41,7 @@
 
 #pass {
     /* block-size: 250px; */ 
-    block-size: 5% auto;
+    block-size: 5% auto
 }
 
 #register {
@@ -51,7 +51,7 @@
 
 #user {
     /* block-size: 250px; */
-    block-size: 5%;
+    block-size: 5% auto;
 }
 
 .forms {
@@ -111,4 +111,5 @@
     width: 80%; 
     font-size: 0.75em;
     text-decoration: none;
+    color: #9f5ee9;
 }
