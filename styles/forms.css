@@ -8,20 +8,20 @@
     0 0 2px #19184b;
 }
 
-#fps{
-    color: #fd9099;
-    text-shadow: 0 0 5px #fd9099,
-    0 0 2px #672329, 
-    0 0 2px #672329,
-    0 0 2px #672329;
-}
-
 #snk{
     color: #17aefa ;
     text-shadow: 0 0 5px #0080c0 ,
     0 0 2px #0b415c, 
     0 0 2px #0b415c,
     0 0 2px #0b415c;
+}
+
+#fps{
+    color: #fd9099;
+    text-shadow: 0 0 5px #fd9099,
+    0 0 2px #672329, 
+    0 0 2px #672329,
+    0 0 2px #672329;
 }
 
 #access {
@@ -88,19 +88,20 @@
 
 .frm-check {
     color: #9f5ee9;
+    /*color: black;*/
     text-shadow: 0 0 5px #a862f6, 0 0 2px #7512e6, 0 0 2px #7512e6, 0 0 2px #7512e6;
-}
-
-.frm-required, .frm-asterisk {
-    width: 80%; 
-    font-size: 0.75em;
-    color: #ff0000;
 }
 
 .frm-required {
     margin: 0;
     margin-top: 5px;
     margin-left: 5px;
+}
+
+.frm-required, .frm-asterisk {
+    width: 80%; 
+    font-size: 0.75em;
+    color: #ff0000;
 }
 
 .frm-reference {

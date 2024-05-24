@@ -9,30 +9,45 @@ input:focus + .frm-label {
     margin-top: -100px;
 }
 
+input::before + .frm-check {
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+input::after + .frm-check {
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
+}
+
 input:checked {
-    accent-color: black;
-    background-color: 1px solid #7900ff;
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-/*
-input:blank {
-    accent-color: black;
-    background-color: 1px solid #7900ff;
+input:active + .frm-check {
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-input[type="checkbox"] {
-    color: black;
-    accent-color: black;
-    outline: 1px solid #7900ff;
+input:enabled + .frm-check {
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-input[type="radio"] {
-    accent-color: black;
-    outline: 1px solid #7900ff;
+input:first {
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-input[type="range"] {
-    accent-color: black;
-    outline: 1px solid #7900ff;
+input:chafirst {
+    background: rgba(0, 0, 0, 0.7);
+    accent-color:  rgba(0, 0, 0, 0.7);
+    background-color: 1px solid rgba(0, 0, 0, 0.7);
 }
-*/
+
