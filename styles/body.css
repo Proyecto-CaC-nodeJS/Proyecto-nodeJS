@@ -16,13 +16,3 @@ h2 {
 span {
     color: #7900ff;
 }
-
-#reg {
-    color: #e9e0f5;
-    text-decoration: none;
-    background: #8354b9;
-    border: 2px solid #7900ff; 
-    border-radius: 5px;
-    padding: 2px; 
-    display: inline-block;
-}

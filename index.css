@@ -4,6 +4,25 @@ p {
     white-space: pre-line;
 }
 
+.btn-register {
+    display: flex;
+    justify-content: center;
+}
+
+#reg {
+    display: inline-block;
+    color: #e9e0f5;
+    text-decoration: none;
+    text-align: center;
+    background: #8354b9;
+    border: 7px solid #7900ff;
+    border-radius: 5px;
+    margin: 10px 10px auto;
+    padding: 15px 15px auto;
+    font-size: 25px;
+    animation: blink 1.5s infinite;
+}
+
 /*  TARJETAS  */
 .tarjetas img {
     width: 100%;
