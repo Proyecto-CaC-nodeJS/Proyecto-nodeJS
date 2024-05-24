@@ -1,5 +1,5 @@
-/* Importar archivos CSS dentro de master.css
-   Carga todos los estilos  */
+/* Importar archivos CSS dentro de master.css --> pasar a start
+   Carga todos los estilos  - pasar a start*/
 
 @import url('../styles/html.css');      /*  Estilos para todos los htmls  */
 @import url('../styles/imports.css');   /*  Importaciones  */

@@ -1,6 +1,7 @@
  /*  Estilos para todos los footers  */
 
 footer {
+    align-;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(#000000, #7512e6);
