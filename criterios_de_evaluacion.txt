@@ -22,7 +22,7 @@ Criterios de evaluacion
 6 - Se considerará la presentación general del proyecto, la legibilidad del mismo, 
     la navegación sin llegar a puntos de no retorno, la optimización de imagenes para la web
     y el uso de favicon.
-    Hecha.
+    Hecho.
 
 7 - El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git.
     (Mandatorio)
