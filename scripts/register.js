@@ -28,12 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     */
 
-    // Si el formulario es válido, lo informa en pantalla
-    validarFormulario() ? (alert('¡ Datos enviados correctamente !'), this.reset()) : null;
-
-    // Si el formulario es válido, consola y pantalla
-    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
-    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    // Si el formulario es válido, lo informa en pantalla y envia los datos
+    // Luego se envia a acceso
+    validarFormulario() ? (alert('¡ Datos registrados correctamente !'), 
+     window.location.href = '../pages/access.html') : null;
   });
 
   function validarFormulario() {

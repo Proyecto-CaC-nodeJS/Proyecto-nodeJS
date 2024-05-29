@@ -9,14 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
 
     // Si el formulario es válido, lo informa en pantalla
-//    validarFormulario() ? (alert('¡ Datos validados correctamente !'), this.reset()) : null;
-    // Si el usuario se loguea a index.html
+    // Si el usuario es valido lo envia index.html
     validarFormulario() ? (alert('¡ Datos validados correctamente !'), window.location.href = '../index.html')
      : this.reset(), null;
-        ;
-    // Si el formulario es válido, consola y pantalla
-    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
-    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
   });
 
   function validarFormulario() {

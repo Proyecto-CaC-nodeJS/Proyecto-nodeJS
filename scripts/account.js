@@ -11,12 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
   formulario.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    // Si el formulario es válido, lo informa en pantalla
-    validarFormulario() ? (alert('¡ Datos enviados correctamente ! '), this.reset()) : null;
+    const mensajeDeCorreoEletronico = "Por favor, revise su correo electronico.";
+    const mensajeDeValidacion = "Se ha enviado un e-mail para la validación de su cuenta.";
 
-    // Si el formulario es válido, consola y pantalla
-    //validarFormulario() ? (console.log("Formulario válido. Enviando datos..."), 
-    //alert('¡Datos enviados correctamente!'), this.reset()) : null;
+    // Si el formulario es válido, lo informa en pantalla y envia los datos
+    // Luego se envia a acceso
+    validarFormulario() ? (alert(`${mensajeDeCorreoEletronico}\n${mensajeDeValidacion}`), 
+     window.location.href = '../pages/access.html') : null;
   });
 
   function validarFormulario() {
