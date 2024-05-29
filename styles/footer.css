@@ -2,9 +2,9 @@
 
 footer {
     display: flex;
+    padding: 20px;
     justify-content: space-between;
     background: linear-gradient(#000000, #7512e6);
-    padding: 20px;
 }
 
 .left-section ul, .right-section ul {

@@ -321,6 +321,7 @@ h3 {
 
 /* ------------------ footer ---------------- */
 footer {
+    width: 100%;
     background: linear-gradient(#000000, #1521c7e1);
 }
 
