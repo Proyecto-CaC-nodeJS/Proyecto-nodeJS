@@ -7,7 +7,7 @@ Criterios de evaluacion
     con al menos 5 campos que incluya (un checkbox o radiobutton), 
     un select y una imagen, con validación realizada mediante JavaScript 
     para que los campos sean obligatorios.
-    Falta un checkbox o un radiobutton, un select y una imgen con sus correspondientes validaciones.
+    Falta un select y una imgen con sus correspondientes validaciones.
 
 3 - Tener al menos una página totalmente responsive con mínimo 3 puntos de corte con media querys para 3
     tamaños de dispositivos (PC escritorio, Tablet, Celular). Para el diseño debe usarse CSS.
@@ -22,7 +22,7 @@ Criterios de evaluacion
 6 - Se considerará la presentación general del proyecto, la legibilidad del mismo, 
     la navegación sin llegar a puntos de no retorno, la optimización de imagenes para la web
     y el uso de favicon.
-    Falta verificar optimizacion de imagenes.
+    Hecha.
 
 7 - El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git.
     (Mandatorio)
