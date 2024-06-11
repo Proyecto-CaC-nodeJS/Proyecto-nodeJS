@@ -8,7 +8,7 @@
     z-index: 999;
     /* left: 91.5%; */
     right: 12.5%;
-    top: 84.5%;
+    top: 85.5%;
     cursor: pointer;
     transition: filter 0.7s;
 }
@@ -21,8 +21,8 @@
 
 /* Estilo para el contenedor del menú */
 .menu {
-    right: 15.75%;
-    top: 60%;
+    right: 12.5%;
+    top: 85.5%;
     position: block;
     display: inline-block;
     opacity: 65%;
@@ -47,7 +47,7 @@
     margin-top: -6px;
     /* left: 91.5%; */
     right: 12.5%;
-    top: 50%;
+    top: 85.5%;
     animation: slideInFromBottom 0.5s ease forwards;
     box-sizing: content-box;
 }
@@ -74,15 +74,19 @@
 
 @media screen and (max-width: 2560px) {
     .dropdown-content {
-        top: 72.1%;
-        left: 91.5%;
+        /* top: 72.1%;
+        left: 91.5%; */
+        right: 12.5%;
+        top: 62.5%;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .dropdown-content {
-        top: 52.1%;
-        left: 91.5%;
+        /*t op: 52.1%;
+        left: 91.5%; */
+        right: 12.5%;
+        top: 57.5%;
     }
 }
 
@@ -92,8 +96,10 @@
     }
 
     .dropdown-content {
-        top: 46.1%;
-        left: 86%;
+        /* top: 46.1%;
+        left: 86%; */
+        right: 7.5%;
+        top: 57.5%;
     }
 
     .dropdown-image {
@@ -101,17 +107,21 @@
     }
 
     .logo-redes {
-        left: 86%;
+        /* left: 86%; */
+        right: 7.5%;
     }
 }
 
 @media screen and (max-width: 426px) {
     .logo-redes {
-        left: 86%;
-        /*right: 25%; */
+        /* display: none; */
+        /* left: 86%; */
+        right: 7.5%;
     }
 
     .dropdown-content {
-        left: 86%;
+        /* left: 86%; */
+        right: 7.5%;
+        top: 57.5%;
     }
 }
