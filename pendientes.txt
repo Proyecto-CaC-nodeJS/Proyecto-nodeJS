@@ -4,8 +4,6 @@ Faltantes
 - verificar Flexbox y/o Grid, , si se verifica marcar que esta hecho en los criterios de evalucion 
   Punto 5
   
-- centrar y agrandar boton de ! registrate ahora ¡ en index
-
 - agregar botones de ir arriba y abajo
 
 
@@ -59,6 +57,8 @@ Obligatorios
 
 Terminados
 -----------
+- centrar y agrandar boton de ! registrate ahora ¡ en index
+  Hecho
 
 - checkbox en pagina de registro o creacion de de cuenta, Aceptacion de terminos y condiciones, 
   si se verifica marcar que esta hecho en los criterios de evalucion 
