@@ -1,5 +1,7 @@
 /*  Estilos para el contacto  */
 
+@import url('../common/buttons.css');     /*  Estilos para todos las botones  */
+
 .frm-label {
     padding-left: 15px;
     position: absolute;
