@@ -27,5 +27,5 @@ const conexiondb = async ()=>{
 
 app.listen(port,()=>{
     conexiondb()
-    console.log(`Server ok en el puerto ${port}`);
+    console.log(`Server ejecutandose en el puerto ${port}`);
 })
