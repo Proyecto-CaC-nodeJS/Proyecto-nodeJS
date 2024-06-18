@@ -1,5 +1,7 @@
 /*  Estilos para index  */
 
+@import url('./styles/common/buttons.css');     /*  Estilos para todos las botones  */
+
 p {
     white-space: pre-line;
 }
