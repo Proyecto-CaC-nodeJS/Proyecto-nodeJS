@@ -1,6 +1,7 @@
-/*  */
+/*    */
 
-require('dotenv').config();
+const environment = process.env.ENVIRONMENT;
+console.log(`[nodemon] ejecutando en ${environment}`);
 
 module.exports = {
     dialect: process.env.DB_DIALECT || 'mysql',
