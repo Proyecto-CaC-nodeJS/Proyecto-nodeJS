@@ -47,7 +47,7 @@
     margin-top: -6px;
     /* left: 91.5%; */
     right: 12.5%;
-    top: 85.5%;
+    top: 80.5%;
     animation: slideInFromBottom 0.35s ease forwards;
     box-sizing: content-box;
 }
@@ -83,10 +83,10 @@
 
 @media screen and (max-width: 1440px) {
     .dropdown-content {
-        /*t op: 52.1%;
+        /*top: 52.1%;
         left: 91.5%; */
         right: 12.5%;
-        top: 57.5%;
+        top: 54.5%;
     }
 }
 

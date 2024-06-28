@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-family: 'Scorpion-Regular'; /* Nombre de la fuente */
+    font-family: 'Scorpion-Regular';
     background: #0000001c;
     border-radius: 10px 10px 10px 10px;
     color: #58ecff;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Scorpion-Regular'; /* Nombre de la fuente */
+    font-family: 'Scorpion-Regular'; 
     color: #58ecff;
     animation: neon 1.5s infinite alternate;
     padding-top: 5vh;
