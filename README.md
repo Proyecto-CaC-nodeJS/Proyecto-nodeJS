@@ -63,19 +63,41 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cors/cors-original.svg" alt="Cors" width="40" height="40"/> Cors
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/> MySQL
 
+<table align="center">
+  <tr width="100%">
+    <td align="center">
+      <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="100%" height="100%"> Node.js </a>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="100%" height="100%">
+      <br>
+      <a href="https://expressjs.com/" target="_blank"> Express.js </a>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="100%">
+      <br>
+      <a href="" target="_blank"> JS </a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="100%" height="10%">
+      <br>
+      <a href="https://axios-http.com/es/docs/intro" target="_blank"> Axios </a>
+    </td>
+  </tr>
+</table>
+
 ### Herramientas:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/> Docker
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> Git
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub
 
 ## Documentación:
-
    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
 
    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> Documentación de CSS3 </a>
-   
+
    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> Documentación de JavaScript </a>
-   
+
    <a href="https://axios-http.com/docs/intro" target="_blank"> Documentación de Axios </a>
 
    <a href="https://expressjs.com/" target="_blank"> Documentación de Express </a>
