@@ -90,15 +90,15 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub
 
 <table align="center">
-  <tr width="75%">
+  <tr width="50%">
     <td align="center">
-      <a align="center" href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="75%" height="75%"><br> Docker </a>
+      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="65%" height="65%"><br> Docker </a>
     </td>
     <td align="center">
-      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="100%" height="100%"> Git </a>
+      <a href="https://git-scm.com/doc" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="65%" height="65%"><br> Git </a>
     </td>
     <td align="center">
-      <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="100%" height="100%"> GitHub </a>
+      <a href="https://docs.github.com/en" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="65%" height="65%"><br> GitHub </a>
     </td>
   </tr>
 </table>
