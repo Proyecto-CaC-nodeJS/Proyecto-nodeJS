@@ -151,7 +151,7 @@ Este proyecto utiliza las siguientes tecnologías:
 
 
 ## Desarrollador/es
-Gianfranco, Silvio Jorda
+Gianfranco Bambach, Silvio Jorda
 
 ## Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
