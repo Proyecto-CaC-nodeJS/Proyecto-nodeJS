@@ -69,9 +69,7 @@ Este proyecto utiliza las siguientes tecnologías:
       <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="100%" height="100%"> Node.js </a>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="100%" height="100%">
-      <br>
-      <a href="https://expressjs.com/" target="_blank"> Express.js </a>
+      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="100%" height="100%"> Express.js </a>
     </td>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="100%">
@@ -90,6 +88,20 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/> Docker
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> Git
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub
+
+<table align="center">
+  <tr width="100%">
+    <td align="center">
+      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="75%" height="75%"> Docker </a>
+    </td>
+    <td align="center">
+      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="100%" height="100%"> Git </a>
+    </td>
+    <td align="center">
+      <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="100%" height="100%"> GitHub </a>
+    </td>
+  </tr>
+</table>
 
 ## Documentación:
    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
