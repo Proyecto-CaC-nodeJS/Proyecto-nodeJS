@@ -1,6 +1,7 @@
 # GG-Games
 
 <p align="center">
+  
   <img src="https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/blob/main/front/src/logogg.png" alt="Logo del Proyecto" width="100">
   <br> GG-Games <br>
 </p>
