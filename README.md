@@ -34,17 +34,17 @@ Este proyecto utiliza las siguientes tecnologías:
 <table align="center">
   <tr width="100%">
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="100%" height="10%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="100%" height="100%">
       <br>
       <a href="" target="_blank"> HTML5 </a>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="100%" height="10%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="100%" height="100%">
       <br>
       <a href="" target="_blank"> CSS3 </a>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="10%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="100%">
       <br>
       <a href="" target="_blank"> JS </a>
     </td>
@@ -62,6 +62,31 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="Sequelize" width="40" height="40"/> Sequelize
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cors/cors-original.svg" alt="Cors" width="40" height="40"/> Cors
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/> MySQL
+
+<table align="center">
+  <tr width="100%">
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="100%" height="100%">
+      <br>
+      <a href="" target="_blank"> HTML5 </a>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="100%" height="100%">
+      <br>
+      <a href="" target="_blank"> CSS3 </a>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="100%">
+      <br>
+      <a href="" target="_blank"> JS </a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="100%" height="10%">
+      <br>
+      <a href="https://axios-http.com/es/docs/intro" target="_blank"> Axios </a>
+    </td>
+  </tr>
+</table>
 
 ### Herramientas:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/> Docker
