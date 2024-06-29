@@ -90,9 +90,9 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub
 
 <table align="center">
-  <tr width="100%">
+  <tr width="75%">
     <td align="center">
-      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="75%" height="75%"> Docker </a>
+      <a align="center" href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="75%" height="75%"><br> Docker </a>
     </td>
     <td align="center">
       <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="100%" height="100%"> Git </a>
