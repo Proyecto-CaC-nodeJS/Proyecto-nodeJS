@@ -72,9 +72,6 @@
     <td align="center">
       <a href="https://www.mysql.com/products/workbench/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="WORKBENCH" width="200" height="200"> Workbench </a>
     </td>
-    <td align="center">
-      <a href="https://www.heidisql.com/" target="_blank"><img src="https://heidisql.com/images/logo.png" alt="HEIDISQL" width="200" height="200"> HeidiSQL </a>
-    </td>
   </tr>
 </table>
 
@@ -101,32 +98,13 @@
    
 - <a href="https://docs.github.com/en" target="_blank"> Documentación de GiHub </a>
   
-- <a href="" target="_blank"> Documentación de Workbench </a>
+- <a href="https://dev.mysql.com/doc/workbench/en/" target="_blank"> Documentación de Workbench </a>
 
-- <a href="" target="_blank"> Documentación de HeidiSQL </a>
-
-## Instalación
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   ```   
-2. Instalar las dependencias del servidor:
-   ```bash
-   npm install
-   ```
-3. Iniciar el servidor:
-   ```bash
-   npm start:prod  -->  Inicia el servidor contandose a la base de datos de produccion.
-   ```
-4. Información general:
-   ```bash
-   Dentro del repositorio existen dos rutas principales:
-     front  -->  todo lo relacionado con el front-end.
-     back  -->  todo lo relacionado con el back-end, las dependencias de componentes, las conexiones, los scripts, etc..
-   En definitiva todo lo necesario para poder ejecutar las paginas (frontend) y su base de datos (back-end). 
-   ```
-
+## Directorios
+https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/  
+├── backend/   <-- Directorio para el Back-End  
+├── frontend/  <-- Directorio para el Front-End  
+└── README.md
 
 ## Desarrollador/es
 Gianfranco Bambach, Silvio Jorda
