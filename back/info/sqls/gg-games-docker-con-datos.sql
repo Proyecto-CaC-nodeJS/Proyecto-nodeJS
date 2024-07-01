@@ -16,9 +16,30 @@
 
 
 -- Volcando estructura de base de datos para gg-games
-DROP DATABASE IF EXISTS `gg-games-docker`;
+DROP DATABASE IF EXISTS `gg-games-dockere`;
 CREATE DATABASE IF NOT EXISTS `gg-games-docker` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `gg-games-docker`;
+
+-- Volcando estructura para tabla gg-games.accounts
+DROP TABLE IF EXISTS `accounts`;
+CREATE TABLE IF NOT EXISTS `accounts` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `userId` int NOT NULL,
+  `firstName` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `lastName` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `phoneNumber` int DEFAULT NULL,
+  `comment` varchar(250) DEFAULT NULL,
+  `active` tinyint NOT NULL DEFAULT '1',
+  `createdBy` int NOT NULL DEFAULT '0',
+  `createdAt` datetime DEFAULT NULL,
+  `updatedBy` int NOT NULL DEFAULT '0',
+  `updatedAt` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `fk_userId` (`userId`) USING BTREE,
+  CONSTRAINT `fk_users_acounts` FOREIGN KEY (`userId`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=DYNAMIC;
+
+-- Volcando datos para la tabla gg-games.accounts: ~0 rows (aproximadamente)
 
 -- Volcando estructura para tabla gg-games.contact_descriptions
 DROP TABLE IF EXISTS `contact_descriptions`;
@@ -84,19 +105,19 @@ REPLACE INTO `email_descriptions` (`id`, `description`, `default`, `order`, `act
 DROP TABLE IF EXISTS `gamers`;
 CREATE TABLE IF NOT EXISTS `gamers` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `userId` int NOT NULL,
-  `firstName` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `lastName` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `email` varchar(150) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `accountId` int NOT NULL,
+  `nickName` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `active` tinyint NOT NULL DEFAULT '1',
   `createdBy` int NOT NULL DEFAULT '0',
   `createdAt` datetime DEFAULT NULL,
   `updatedBy` int NOT NULL DEFAULT '0',
   `updatedAt` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `fk_accountId` (`accountId`) USING BTREE,
+  CONSTRAINT `fk_gamers_accounts` FOREIGN KEY (`accountId`) REFERENCES `accounts` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Volcando datos para la tabla gg-games.gamers: ~3 rows (aproximadamente)
+-- Volcando datos para la tabla gg-games.gamers: ~0 rows (aproximadamente)
 
 -- Volcando estructura para tabla gg-games.games
 DROP TABLE IF EXISTS `games`;
@@ -110,10 +131,12 @@ CREATE TABLE IF NOT EXISTS `games` (
   `createdAt` datetime DEFAULT NULL,
   `updatedBy` int NOT NULL DEFAULT '0',
   `updatedAt` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`) USING BTREE
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `fk_gamerId` (`gamerId`),
+  CONSTRAINT `fk_gamers_games` FOREIGN KEY (`gamerId`) REFERENCES `gamers` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=DYNAMIC;
 
--- Volcando datos para la tabla gg-games.games: ~4 rows (aproximadamente)
+-- Volcando datos para la tabla gg-games.games: ~0 rows (aproximadamente)
 
 -- Volcando estructura para tabla gg-games.localities
 DROP TABLE IF EXISTS `localities`;
@@ -230,8 +253,8 @@ CREATE TABLE IF NOT EXISTS `scores` (
   `updatedBy` int NOT NULL DEFAULT '0',
   `updatedAt` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `fk_game_id` (`gameId`) USING BTREE,
-  CONSTRAINT `fk_game_id` FOREIGN KEY (`gameId`) REFERENCES `countries` (`id`)
+  KEY `fk_gameId` (`gameId`) USING BTREE,
+  CONSTRAINT `fk_games_gamers` FOREIGN KEY (`gameId`) REFERENCES `countries` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Volcando datos para la tabla gg-games.scores: ~0 rows (aproximadamente)
@@ -241,8 +264,8 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int NOT NULL AUTO_INCREMENT,
   `user` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `nickName` varchar(50) NOT NULL,
   `pass` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `email` varchar(150) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   `rolId` int NOT NULL,
   `checked` tinyint NOT NULL DEFAULT '0',
   `active` tinyint NOT NULL DEFAULT (1),
@@ -251,14 +274,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `updatedBy` int NOT NULL DEFAULT '0',
   `updatedAt` datetime NOT NULL DEFAULT (now()),
   PRIMARY KEY (`id`),
-  KEY `fk_rol_id` (`rolId`) USING BTREE,
-  CONSTRAINT `FK_users_roles` FOREIGN KEY (`rolId`) REFERENCES `roles` (`id`)
+  KEY `fk_rolId` (`rolId`) USING BTREE,
+  CONSTRAINT `fk_users_roles` FOREIGN KEY (`rolId`) REFERENCES `roles` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Volcando datos para la tabla gg-games.users: ~1 rows (aproximadamente)
-REPLACE INTO `users` (`id`, `user`, `nickName`, `pass`, `rolId`, `checked`, `active`, `createdBy`, `createdAt`, `updatedBy`, `updatedAt`) VALUES
-	(1, 'admin', 'admin', '123456', 1, 0, 1, 0, '2023-09-28 00:00:00', 0, '2023-09-28 00:00:00'),
-	(2, 'jugador', 'jugador', '123456', 2, 0, 1, 0, '2024-06-26 12:26:12', 0, '2024-06-26 12:26:12');
+REPLACE INTO `users` (`id`, `user`, `pass`, `email`, `rolId`, `checked`, `active`, `createdBy`, `createdAt`, `updatedBy`, `updatedAt`) VALUES
+	(1, 'admin', '123456', NULL, 1, 0, 1, 0, '2023-09-28 00:00:00', 0, '2023-09-28 00:00:00'),
+	(2, 'jugador', '123456', NULL, 2, 0, 1, 0, '2024-06-26 12:26:12', 0, '2024-06-26 12:26:12');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
