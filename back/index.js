@@ -9,6 +9,9 @@ const port = process.env.PORT || 3030;
 const startServer = async () => {
     try {
         await sequelize.authenticate();
+
+        //console.log(`[nodemon] ejecutando en ${environment}`);
+
         console.log("Conexión exitosa a la base de datos");
 
         app.listen(port, () => {
