@@ -102,8 +102,8 @@
 
 ## Directorios
 https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/  
-├── backend/   <-- Directorio para el Back-End  
-├── frontend/  <-- Directorio para el Front-End  
+├── back/   <-- Directorio para el Back-End  
+├── front/  <-- Directorio para el Front-End  
 └── README.md
 
 ## Desarrollador/es
