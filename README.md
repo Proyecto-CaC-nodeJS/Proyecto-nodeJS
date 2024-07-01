@@ -1,20 +1,23 @@
 # GG-Games
 
 <p align="center">
-  <img src="https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/blob/main/front/src/logogg.png" alt="Logo del Proyecto" width="100">
-  <br> GG-Games <br>
+  <a href="https://gg-games.netlify.app/" target="_blank">
+    <img src="https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/blob/main/front/src/logogg.png" alt="Logo" width="175" height="175">
+    <br> GG-Games 
+  </a>
 </p>
 
 ## Descripción
+El sitio web https://gg-games.netlify.app/ es un desarrollo final para un bootcamp.<br>
 
+Esta aplicación está diseñada con el propósito de proporcionar una plataforma donde los usuarios pueden explorar y disfrutar de una variedad de juegos retro.<br>
+Su objetivo principal es ofrecer entretenimiento a través de una colección diversa de juegos disponibles en línea.<br> Esto es útil porque centraliza varias opciones de juego en un solo lugar, facilitando a los usuarios encontrar y disfrutar de juegos de diferentes géneros y estilos sin tener que buscar en múltiples sitios web.
 Una breve descripción de tu aplicación. 
 Aquí explicas qué hace.
 Cuál es su propósito.
 Por qué es útil.
 
 ## Tecnologías
-
-Este proyecto utiliza las siguientes tecnologías:
 
 ### FrontEnd:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="25" height="25"/> HTML5 
@@ -57,30 +60,25 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/> Node.js 
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="40" height="40"/> Express
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="Sequelize" width="40" height="40"/> Sequelize
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cors/cors-original.svg" alt="Cors" width="40" height="40"/> Cors
+  - <img src="https://img.icons8.com/ios-filled/452/security-checked.png" alt="Cors" width="40" height="40"/> Cors
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/> MySQL
 
 <table align="center">
   <tr width="100%">
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="100%" height="100%">
-      <br>
-      <a href="" target="_blank"> HTML5 </a>
+      <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NODEJS" width="200" height="200"> Node.js </a>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="100%" height="100%">
-      <br>
-      <a href="" target="_blank"> CSS3 </a>
+      <a href="https://expressjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="EXPRESS" width="200" height="200"> Express </a>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="100%">
-      <br>
-      <a href="" target="_blank"> JS </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank"><img src="https://img.icons8.com/ios-filled/452/security-checked.png" alt="CORS" width="200" height="200"> CORS </a>
     </td>
-    <td align="center" width="25%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="100%" height="10%">
-      <br>
-      <a href="https://axios-http.com/es/docs/intro" target="_blank"> Axios </a>
+    <td align="center">
+      <a href="https://sequelize.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="SEQUELIZE" width="200" height="200"> Sequelize </a>
+    </td>
+    <td align="center">
+      <a href="https://dev.mysql.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MYSQL" width="200" height="200"> MySQL </a>
     </td>
   </tr>
 </table>
@@ -90,32 +88,54 @@ Este proyecto utiliza las siguientes tecnologías:
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> Git
   - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub
 
+<table align="center">
+  <tr width="100%">
+    <td align="center">
+      <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="DOCKER" width="200" height="200"> Docker </a>
+    </td>
+    <td align="center">
+      <a href="https://git-scm.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="GIT" width="200" height="200"> Git </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GH" width="200" height="200"> GitHub </a>
+    </td>
+    <td align="center">
+      <a href="https://www.mysql.com/products/workbench/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="WORKBENCH" width="200" height="200"> Workbench </a>
+    </td>
+    <td align="center">
+      <a href="https://www.heidisql.com/" target="_blank"><img src="https://heidisql.com/images/logo.png" alt="HEIDISQL" width="200" height="200"> HeidiSQL </a>
+    </td>
+  </tr>
+</table>
+
 ## Documentación:
 
-   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
+- <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
 
-   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> Documentación de CSS3 </a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> Documentación de CSS3 </a>
    
-   <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"> Documentación de Bootstrap </a>
+- <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"> Documentación de Bootstrap </a>
    
-   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> Documentación de JavaScript </a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> Documentación de JavaScript </a>
    
-   <a href="https://axios-http.com/docs/intro" target="_blank"> Documentación de Axios </a>
+- <a href="https://axios-http.com/docs/intro" target="_blank"> Documentación de Axios </a>
 
-   <a href="https://expressjs.com/" target="_blank"> Documentación de Express </a>
+- <a href="https://expressjs.com/" target="_blank"> Documentación de Express </a>
 
-   <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank"> Documentación de CORS </a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank"> Documentación de CORS </a>
 
-   <a href="https://sequelize.org/docs/v6/" target="_blank"> Documentación de Sequelize </a>
+- <a href="https://sequelize.org/docs/v6/" target="_blank"> Documentación de Sequelize </a>
    
-     
-## Navega al directorio del proyecto:
-
-   <a href="https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS" target="_blank"> Repositorio de la aplicación </a>
-   ```bash
-   https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS
-   ```
+- <a href="https://dev.mysql.com/doc/" target="_blank"> Documentación de MySQL </a>
    
+- <a href="https://git-scm.com/doc" target="_blank"> Documentación de Git </a>
+   
+- <a href="https://docs.github.com/en" target="_blank"> Documentación de GiHub </a>
+  
+- <a href="" target="_blank"> Documentación de Workbench </a>
+
+- <a href="" target="_blank"> Documentación de HeidiSQL </a>
+
 ## Instalación
 
 1. Clonar el repositorio:
