@@ -42,13 +42,13 @@ Este proyecto utiliza las siguientes tecnologías:
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="200" height="200"> CSS3 </a>
     </td>
     <td align="center">
-      <a href="https://getbootstrap.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="BS" width="100%" height="100%"> BS </a>
+      <a href="https://getbootstrap.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="BS" width="200" height="200"> Bootstrap </a>
     </td>
     <td align="center">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="100%" height="100%"> JS </a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="200" height="200"> JavaScript </a>
     </td>
     <td align="center">
-      <a href="https://axios-http.com/es/docs/intro" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="100%" height="10%"> Axios </a>
+      <a href="https://axios-http.com/es/docs/intro" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="200" height="200"> Axios </a>
     </td>
   </tr>
 </table>
@@ -95,6 +95,8 @@ Este proyecto utiliza las siguientes tecnologías:
    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
 
    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> Documentación de CSS3 </a>
+   
+   <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank"> Documentación de Bootstrap </a>
    
    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> Documentación de JavaScript </a>
    
