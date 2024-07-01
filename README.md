@@ -16,22 +16,6 @@
 
 ## Tecnologías
 ### FrontEnd:
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="25" height="25"/> HTML5 
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="25" height="25"/> CSS3
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="BS" width="25" height="25"/> Bootstrap 
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="25" height="25"/> JavaSscript
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="25" height="25"/> Axios
-
-### FrontEnd sin textos:
-<p align="center" width="100%">
-  <img width="20%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="20" height="20"/>
-  <img width="20%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="20" height="20"/>
-  <img width="20%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="BS" width="20" height="20"/>
-  <img width="20%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="20" height="20"/>
-  <img width="20%" src="https://cdn.jsdelivr.net/gh/devicons/devicon//icons/axios/axios-plain-wordmark.svg" alt="Axios" width="20" height="20"/>
-</p>
-
-### FrontEnd con textos:
 <table align="center">
   <tr width="100%">
     <td align="center">
@@ -53,12 +37,6 @@
 </table>
 
 ### BackEnd:
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/> Node.js 
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="40" height="40"/> Express
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="Sequelize" width="40" height="40"/> Sequelize
-  - <img src="https://img.icons8.com/ios-filled/452/security-checked.png" alt="Cors" width="40" height="40"/> Cors
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/> MySQL
-
 <table align="center">
   <tr width="100%">
     <td align="center">
@@ -80,10 +58,6 @@
 </table>
 
 ### Herramientas:
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/> Docker
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> Git
-  - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub
-
 <table align="center">
   <tr width="100%">
     <td align="center">
@@ -105,7 +79,6 @@
 </table>
 
 ## Documentación:
-
 - <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> Documentación de CSS3 </a>
