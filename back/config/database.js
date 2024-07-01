@@ -4,6 +4,7 @@ const environment = process.env.ENVIRONMENT;
 console.log(`[nodemon] ejecutando en ${environment}`);
 
 module.exports = {
+    environment: process.env.ENVIRONMENT || 'produccion',
     dialect: process.env.DB_DIALECT || 'mysql',
     host: process.env.DB_HOST || 'localhost',
     port: parseInt(process.env.DB_PORT, 10) || 3306,
