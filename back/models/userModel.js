@@ -13,18 +13,21 @@ const User = sequelize.define("users", {
     user: {
         type: DataTypes.STRING,
         allowNull: false,
-    },
-    nickName: {
-        type: DataTypes.STRING,
-        allowNull: false,
+        defaultValue: "usuario"
     },
     pass: {
         type: DataTypes.STRING,
         allowNull: false,
+        defaultValue: "123456"
     },
     rolId: {
         type: DataTypes.INTEGER,
-        allowNull: false
+        allowNull: false,
+        defaultValue: 1
+    },
+    email: {
+        type: DataTypes.STRING,
+        allowNull: true,
     },
     checked: {
         type: DataTypes.TINYINT,

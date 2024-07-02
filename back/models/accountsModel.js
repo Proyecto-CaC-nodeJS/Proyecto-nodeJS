@@ -8,13 +8,25 @@ const commonActiveFields = require('./commonActiveFields');
 const commonCreatedFields = require('./commonCreatedFields');
 const commonUpdatedFields = require('./commonUpdatedFields');
 
-const Gamer = sequelize.define("gamers", {
+const Account = sequelize.define("accounts", {
     ...commonIdFields,
-    accountId: {
+    userId: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
-    nickName: {
+    firstName: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    lastName: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    phoneNumber: {
+        type: DataTypes.INTEGER,
+        allowNull: true
+    },
+    comment: {
         type: DataTypes.STRING,
         allowNull: true,
     },
@@ -25,4 +37,4 @@ const Gamer = sequelize.define("gamers", {
     timestamps: true,
 });
 
-module.exports = Gamer;
+module.exports = Account;
