@@ -1,7 +1,7 @@
 /*  */
 
 const gameService = require("../services/gameService");
-const { JUEGO_NO_ENCONTRADO } = require("../config/constants");
+const constants = require("../config/constants.js");
 
 const getAllGames = async (req, res) => {
     try {
@@ -18,7 +18,7 @@ const getGameByPk = async (req, res) => {
         if (game) {
             res.json(game);
         } else {
-            res.status(404).json({ error: `${JUEGO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.GAME_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -31,7 +31,7 @@ const getGameById = async (req, res) => {
         if (game) {
             res.json(game);
         } else {
-            res.status(404).json({ error: `${JUEGO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.GAME_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -53,7 +53,7 @@ const deleteGame = async (req, res) => {
         if (deletedGame) {
             res.json(deletedGame);
         } else {
-            res.status(404).json({ error: `${JUEGO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.GAME_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -66,7 +66,7 @@ const updateGame = async (req, res) => {
         if (updatedGame) {
             res.json(updatedGame);
         } else {
-            res.status(404).json({ error: `${JUEGO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.GAME_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });

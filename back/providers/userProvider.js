@@ -6,7 +6,7 @@ const getAllUsers = async () => {
     try {
         return await User.findAll();
     } catch (error) {
-        throw new Error(`Error al obtener los usuarios: ${error.message}`);
+        throw new Error(`Error al obtener todos los usuarios : ${error.message}`);
     }
 };
 
@@ -14,7 +14,7 @@ const getUserByPk = async (id) => {
     try {
         return await User.findByPk(id);
     } catch (error) {
-        throw new Error(`Error al obtener el usuario por ID: ${error.message}`);
+        throw new Error(`Error al obtener el usuario por ID : ${error.message}`);
     }
 };
 
@@ -22,7 +22,7 @@ const getUserById = async (id) => {
     try {
         return await User.findById(id);
     } catch (error) {
-        throw new Error(`Error al obtener el usuario por ID: ${error.message}`);
+        throw new Error(`Error al obtener el usuario por ID : ${error.message}`);
     }
 };
 
@@ -30,7 +30,7 @@ const getUserByMail = async (email) => {
     try {
         return await User.findOne({ where: { email } });
     } catch (error) {
-        throw new Error(`Error al obtener el usuario por correo: ${error.message}`);
+        throw new Error(`Error al obtener el usuario por correo : ${error.message}`);
     }
 };
 
@@ -38,7 +38,7 @@ const getUserByName = async (name) => {
     try {
         return await User.findAll({ where: { name } });
     } catch (error) {
-        throw new Error(`Error al obtener el usuario por nombre: ${error.message}`);
+        throw new Error(`Error al obtener el usuario por nombre : ${error.message}`);
     }
 };
 
@@ -46,7 +46,7 @@ const getUserByLastName = async (lastName) => {
     try {
         return await User.findAll({ where: { lastName } });
     } catch (error) {
-        throw new Error(`Error al obtener el usuario por apellido: ${error.message}`);
+        throw new Error(`Error al obtener el usuario por apellido : ${error.message}`);
     }
 };
 
@@ -54,7 +54,7 @@ const createNewUser = async (data) => {
     try {
         return await User.create(data);
     } catch (error) {
-        throw new Error(`Error al crear el usuario: ${error.message}`);
+        throw new Error(`Error al crear el usuario : ${error.message}`);
     }
 };
 
@@ -67,7 +67,7 @@ const deleteUser = async (id) => {
         }
         return null;
     } catch (error) {
-        throw new Error(`Error al eliminar el usuario: ${error.message}`);
+        throw new Error(`Error al eliminar el usuario : ${error.message}`);
     }
 };
 

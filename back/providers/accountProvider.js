@@ -2,68 +2,68 @@
 
 const { Account } = require("../models/indexModels");
 
-const getAllGames = async () => {
+const getAllAccounts = async () => {
     try {
-        return await Game.findAll();
+        return await Account.findAll();
     } catch (error) {
-        throw new Error(`Error al obtener los games: ${error.message}`);
+        throw new Error(`Error al obtener las cuentas : ${error.message}`);
     }
 };
 
-const getGameByPk = async (id) => {
+const getAccountByPk = async (id) => {
     try {
-        return await Game.findByPk(id);
+        return await Account.findByPk(id);
     } catch (error) {
-        throw new Error(`Error al obtener el game por ID: ${error.message}`);
+        throw new Error(`Error al obtener la cuenta por ID : ${error.message}`);
     }
 };
 
-const getGameById = async (id) => {
+const getAccountById = async (id) => {
     try {
-        return await Game.findById(id);
+        return await Account.findById(id);
     } catch (error) {
-        throw new Error(`Error al obtener el game por ID: ${error.message}`);
+        throw new Error(`Error al obtener la cuenta por ID : ${error.message}`);
     }
 };
 
-const createNewGame = async (data) => {
+const createNewAccount = async (data) => {
     try {
-        return await Game.create(data);
+        return await Account.create(data);
     } catch (error) {
-        throw new Error(`Error al crear el game: ${error.message}`);
+        throw new Error(`Error al crear la cuenta : ${error.message}`);
     }
 };
 
-const deleteGame = async (id) => {
+const deleteAccount = async (id) => {
     try {
-        const game = await Gamer.findByPk(id);
-        if (game) {
-            await game.destroy();
-            return game;
+        const account = await Account.findByPk(id);
+        if (account) {
+            await account.destroy();
+            return account;
         }
         return null;
     } catch (error) {
-        throw new Error(`Error al eliminar el game: ${error.message}`);
+        throw new Error(`Error al eliminar la cuenta : ${error.message}`);
     }
 };
 
-const updateGame = async (id, data) => {
+const updateAccount = async (id, data) => {
     try {
-        const game = await Game.findByPk(id);
-        if (game) {
-            return await game.update(data);
+        const account = await Account.findByPk(id);
+        if (account) {
+            return await account.update(data);
         }
         return null;
     } catch (error) {
-        throw new Error(`Error al actualizar el game: ${error.message}`);
+        throw new Error(`Error al actualizar la cuenta : ${error.message}`);
     }
 };
 
 module.exports = {
-    getAllGames,
-    getGameByPk,
-    getGameById,
-    createNewGame,
-    deleteGame,
-    updateGame,
+    getAllAccounts,
+    getAccountByPk,
+    getAccountById,
+    createNewAccount,
+    deleteAccount,
+    updateAccount,
 };

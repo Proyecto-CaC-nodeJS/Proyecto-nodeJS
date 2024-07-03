@@ -1,16 +1,14 @@
 /*    */
 
+const constants = require("../config/constants.js");
+
 const constants = {
-    // Comunes
     SPACE: " ",
     YES: "si",
     NOT: "no",
-    //YES: "si",
-    //NOT: "no",
     FOUND: "encontrada/o",
     FOUNDS: "encontrada/o/s",
 
-    // Objetos
     USER: "Usuario",
     ROL: "Rol",
     ACCOUNT: "Cuenta",
@@ -18,7 +16,6 @@ const constants = {
     GAME: "Juego",
     SCORE: "Puntaje",
 
-    // 
     get USER_NOT_FOUNDS() {
         return this.USER + this.SPACE + this.NOT + this.SPACE + this.FOUNDS;
     },

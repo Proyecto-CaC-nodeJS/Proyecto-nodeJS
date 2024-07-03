@@ -1,47 +1,47 @@
 /*  */
 
-const gamerService = require("../services/accountgamerService");
-const { JUGADOR_NO_ENCONTRADO } = require("../config/constants");
+const accountService = require("../services/accountService");
+const constants = require("../config/constants.js");
 
-const getAllGamers = async (req, res) => {
+const getAllAccounts = async (req, res) => {
     try {
-        const gamers = await gamerService.getAllGamers();
-        res.json(gamers);
+        const accounts = await accountService.getAllAccounts();
+        res.json(accounts);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 };
 
-const getGamerByPk = async (req, res) => {
+const getAccountByPk = async (req, res) => {
     try {
-        const gamer = await gamerService.getGamerByPk(req.params.id);
-        if (gamer) {
-            res.json(gamer);
+        const account = await accountService.getGamerByPk(req.params.id);
+        if (account) {
+            res.json(account);
         } else {
-            res.status(404).json({ error: `${JUGADOR_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ACCOUNT_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 };
 
-const getGamerById = async (req, res) => {
+const getAccountById = async (req, res) => {
     try {
-        const gamer = await gamerService.getGamerById(req.params.id);
-        if (gamer) {
-            res.json(gamer);
+        const account = await accountService.getGamerById(req.params.id);
+        if (account) {
+            res.json(account);
         } else {
-            res.status(404).json({ error: `${JUGADOR_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ACCOUNT_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 };
 
-const createGamer = async (req, res) => {
+const createAccount = async (req, res) => {
     try {
-        const newGamer = await gamerService.createGamer(req.body);
-        res.status(201).json(newGamer);
+        const newAccount = await accountService.createGamer(req.body);
+        res.status(201).json(newAccount);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
@@ -49,11 +49,11 @@ const createGamer = async (req, res) => {
 
 const deleteAccount = async (req, res) => {
     try {
-        const deletedGamer = await gamerService.deleteGamer(req.params.id);
-        if (deletedGamer) {
-            res.json(deletedGamer);
+        const deletedAccount = await accountService.deleteGamer(req.params.id);
+        if (deletedAccount) {
+            res.json(deletedAccount);
         } else {
-            res.status(404).json({ error: `${JUGADOR_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ACCOUNT_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -62,11 +62,11 @@ const deleteAccount = async (req, res) => {
 
 const updateAccount = async (req, res) => {
     try {
-        const updatedGamer = await gamerService.updateGamer(req.params.id, req.body);
-        if (updatedGamer) {
-            res.json(updatedGamer);
+        const updatedAccount = await accountService.updateGamer(req.params.id, req.body);
+        if (updatedAccount) {
+            res.json(updatedAccount);
         } else {
-            res.status(404).json({ error: `${JUGADOR_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ACCOUNT_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });

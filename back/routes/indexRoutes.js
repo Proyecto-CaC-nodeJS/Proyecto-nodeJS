@@ -2,6 +2,7 @@
 
 const usersRouter = require("./usersRouter");
 const rolesRouter = require("./rolesRouter");
+const accountsRouter = require("./accountsRouter");
 const gamersRouter = require("./gamersRouter");
 const gamesRouter = require("./gamesRouter");
 const scoresRouter = require("./scoresRouter");

@@ -1,7 +1,7 @@
 /*  */
 
 const rolService = require("../services/rolService");
-const { ROL_NO_ENCONTRADO } = require("../config/constants");
+const constants = require("../config/constants.js");
 
 const getAllRoles = async (req, res) => {
     try {
@@ -18,7 +18,7 @@ const getRolByPk = async (req, res) => {
         if (rol) {
             res.json(rol);
         } else {
-            res.status(404).json({ error: `${ROL_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ROL_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -31,7 +31,7 @@ const getRolById = async (req, res) => {
         if (rol) {
             res.json(rol);
         } else {
-            res.status(404).json({ error: `${ROL_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ROL_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -53,7 +53,7 @@ const deleteRol = async (req, res) => {
         if (deletedRol) {
             res.json(deletedRol);
         } else {
-            res.status(404).json({ error: `${ROL_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ROL_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -66,7 +66,7 @@ const updateRol = async (req, res) => {
         if (updatedRol) {
             res.json(updatedRol);
         } else {
-            res.status(404).json({ error: `${ROL_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.ROL_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });

@@ -1,6 +1,7 @@
 /*  */
 
 const scoreService = require("../services/scoreService");
+const constants = require("../config/constants.js");
 
 const getAllScores = async (req, res) => {
     try {
@@ -17,7 +18,7 @@ const getScoreByPk = async (req, res) => {
         if (score) {
             res.json(score);
         } else {
-            res.status(404).json({ error: "Score no encontrado" });
+            res.status(404).json({ error: `${constants.SCORE_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -30,7 +31,7 @@ const getScoreById = async (req, res) => {
         if (score) {
             res.json(score);
         } else {
-            res.status(404).json({ error: "Score no encontrado" });
+            res.status(404).json({ error: `${constants.SCORE_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -52,7 +53,7 @@ const deleteScore = async (req, res) => {
         if (deletedScore) {
             res.json(deletedScore);
         } else {
-            res.status(404).json({ error: "Score no encontrado" });
+            res.status(404).json({ error: `${constants.SCORE_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -65,7 +66,7 @@ const updateScore = async (req, res) => {
         if (updatedScore) {
             res.json(updatedScore);
         } else {
-            res.status(404).json({ error: "Score no encontrado" });
+            res.status(404).json({ error: `${constants.SCORE_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });

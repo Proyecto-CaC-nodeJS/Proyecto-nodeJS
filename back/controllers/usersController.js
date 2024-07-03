@@ -1,7 +1,7 @@
 /*  */
 
 const { userService } = require("../services/indexServices.js");
-const { USUARIO_NO_ENCONTRADO } = require("../config/constants");
+const constants = require("../config/constants.js");
 
 const getAllUsers = async (req, res) => {
     try {
@@ -18,7 +18,7 @@ const getUserByPk = async (req, res) => {
         if (user) {
             res.json(user);
         } else {
-            res.status(404).json({ error: `${USUARIO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.USER_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -31,7 +31,7 @@ const getUserById = async (req, res) => {
         if (user) {
             res.json(user);
         } else {
-            res.status(404).json({ error: `${USUARIO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.USER_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -44,7 +44,7 @@ const getUserByMail = async (req, res) => {
         if (user) {
             res.json(user);
         } else {
-            res.status(404).json({ error: `${USUARIO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.USER_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -84,7 +84,7 @@ const deleteUser = async (req, res) => {
         if (deletedUser) {
             res.json(deletedUser);
         } else {
-            res.status(404).json({ error: `${USUARIO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.USER_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
@@ -97,7 +97,7 @@ const updateUser = async (req, res) => {
         if (updatedUser) {
             res.json(updatedUser);
         } else {
-            res.status(404).json({ error: `${USUARIO_NO_ENCONTRADO}` });
+            res.status(404).json({ error: `${constants.USER_NOT_FOUNDS}` });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
