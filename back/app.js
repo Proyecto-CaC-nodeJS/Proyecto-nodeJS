@@ -2,8 +2,8 @@
 
 const express = require("express");
 const app = express();
-const setupMiddlewares = require("./middlewares");
-const setupRoutes = require("./routes");
+const setupMiddlewares = require("./middlewares/indexMiddlewares");
+const setupRoutes = require("./routes/indexRotes");
 
 setupMiddlewares(app);
 setupRoutes(app);

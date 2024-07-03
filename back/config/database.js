@@ -1,7 +1,6 @@
 /*    */
 
 const environment = process.env.ENVIRONMENT;
-console.log(`[nodemon] ejecutando en ${environment}`);
 
 module.exports = {
     environment: process.env.ENVIRONMENT || 'produccion',
