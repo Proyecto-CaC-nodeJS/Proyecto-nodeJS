@@ -1,6 +1,6 @@
 /*  */
 
-const { scoreProvider } = require("../providers");
+const { scoreProvider } = require("../providers/indexProviders");
 
 const getAllScores = async () => {
     try {

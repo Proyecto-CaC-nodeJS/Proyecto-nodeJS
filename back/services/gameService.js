@@ -1,6 +1,6 @@
 /*  */
 
-const { gameProvider } = require("../providers");
+const { gameProvider } = require("../providers/indexProviders");
 
 const getAllGames = async () => {
     try {

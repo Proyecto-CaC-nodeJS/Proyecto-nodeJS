@@ -1,6 +1,6 @@
 /*  */
 
-const { Score } = require("../models");
+const { Score } = require("../models/indexModels");
 
 const getAllScores = async () => {
     try {

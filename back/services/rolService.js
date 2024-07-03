@@ -1,6 +1,6 @@
 /*  */
 
-const { rolProvider } = require("../providers");
+const { rolProvider } = require("../providers/indexProviders");
 
 const getAllRoles = async () => {
     try {

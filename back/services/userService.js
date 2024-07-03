@@ -1,6 +1,6 @@
 /*  */
 
-const { userProvider } = require("../providers");
+const { userProvider } = require("../providers/indexProviders");
 
 const getAllUsers = async () => {
     try {

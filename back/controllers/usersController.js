@@ -1,6 +1,6 @@
 /*  */
 
-const { userService } = require("../services");
+const { userService } = require("../services/indexServices.js");
 const { USUARIO_NO_ENCONTRADO } = require("../config/constants");
 
 const getAllUsers = async (req, res) => {

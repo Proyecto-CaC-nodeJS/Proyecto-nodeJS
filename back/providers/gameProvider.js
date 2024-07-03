@@ -1,6 +1,6 @@
 /*  */
 
-const { Game } = require("../models");
+const { Game } = require("../models/indexModels");
 
 const getAllGames = async () => {
     try {
