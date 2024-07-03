@@ -12,7 +12,7 @@ const getAllGames = async () => {
 
 const getGameByPk = async (id) => {
     try {
-        return await gameProvider.getGameById(id);
+        return await gameProvider.getGameByPk(id);
     } catch (error) {
         throw new Error(`Error al obtener el game por ID: ${error.message}`);
     }
@@ -53,7 +53,7 @@ const updateGame = async (id, data) => {
 module.exports = {
     getAllGames,
     getGameByPk,
-    getGameById,
+    //getGameById,
     createGame,
     deleteGame,
     updateGame,

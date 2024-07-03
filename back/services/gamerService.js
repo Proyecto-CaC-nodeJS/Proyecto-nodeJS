@@ -10,6 +10,14 @@ const getAllGamers = async () => {
     }
 };
 
+const getGamerByPk = async (id) => {
+    try {
+        return await gamerProvider.getGamerByPk(id);
+    } catch (error) {
+        throw new Error(`Error al obtener el gamer por ID: ${error.message}`);
+    }
+};
+
 const getGamerById = async (id) => {
     try {
         return await gamerProvider.getGamerById(id);
@@ -44,7 +52,8 @@ const updateGamer = async (id, data) => {
 
 module.exports = {
     getAllGamers,
-    getGamerById,
+    getGamerByPk,
+    //getGamerById,
     createGamer,
     deleteGamer,
     updateGamer,

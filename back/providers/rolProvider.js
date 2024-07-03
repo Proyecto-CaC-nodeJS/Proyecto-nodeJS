@@ -1,6 +1,6 @@
 /*  */
 
-const { Role } = require("../models/indexModels");
+const { Rol } = require("../models/indexModels");
 
 const getAllRoles = async () => {
     try {

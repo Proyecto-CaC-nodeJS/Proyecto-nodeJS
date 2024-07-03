@@ -52,7 +52,8 @@ const updateScore = async (id, data) => {
 
 module.exports = {
     getAllScores,
-    getScoreById,
+    getScoreByPk,
+    //getScoreById,
     createScore,
     deleteScore,
     updateScore,
