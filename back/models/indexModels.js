@@ -1,8 +1,8 @@
 /*  */
 
 const User = require("./userModel");
-// const Posteo = require("./Posteo");
 const Rol = require("./rolModel");
+const Account = require("./accountModel");
 const Gamer = require("./gamerModel");
 const Game = require("./gameModel");
 const Score = require("./scoreModel");
@@ -10,7 +10,7 @@ const Score = require("./scoreModel");
 module.exports = {
     User,
     Rol,
-    // Posteo,
+    Account,
     Gamer,
     Game,
     Score,

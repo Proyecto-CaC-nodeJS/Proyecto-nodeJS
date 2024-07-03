@@ -1,6 +1,5 @@
 /*  */
 
-/* const posteosRouter = require("./posteosRouter"); */
 const usersRouter = require("./usersRouter");
 const rolesRouter = require("./rolesRouter");
 const gamersRouter = require("./gamersRouter");
@@ -12,9 +11,9 @@ const setupRoutes = (app) => {
         res.send("Estas en el home del servidor");
     });
 
-    // app.use("/posteos", posteosRouter);
     app.use("/users", usersRouter);
     app.use("/roles", rolesRouter);
+    app.use("/accounts", accountsRouter);
     app.use("/gamers", gamersRouter);
     app.use("/games", gamesRouter);
     app.use("/scores", scoresRouter);
