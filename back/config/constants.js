@@ -1,11 +1,18 @@
 /* Contantes de errores */
 
 module.exports = {
-    USUARIO_NO_ENCONTRADO: "Usuario no encontrado",
+    SPACE : " ",
 
-    ROL_NO_ENCONTRADO: "Rol no encontrado",
+    USER : "Usuario",
 
-    JUGADOR_NO_ENCONTRADO: "Jugador no encontrado",
+    NO_ENCONTRADO : "no encontrado/s",
 
-    JUEGO_NO_ENCONTRADO: "Juego no encontrado",
+    //USUARIO_NO_ENCONTRADO: "Usuario no encontrado",
+    USUARIO_NO_ENCONTRADO : this.USER + this.SPACE + this.NO_ENCONTRADO,
+
+    ROL_NO_ENCONTRADO : "Rol no encontrado",
+
+    JUGADOR_NO_ENCONTRADO : "Jugador no encontrado",
+
+    JUEGO_NO_ENCONTRADO : "Juego no encontrado",
 };
