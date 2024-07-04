@@ -16,9 +16,11 @@
 
 
 -- Volcando estructura de base de datos para gg-games
-DROP DATABASE IF EXISTS `gg-games-docker`;
-CREATE DATABASE IF NOT EXISTS `gg-games-docker` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `gg-games-docker`;
+DROP DATABASE IF EXISTS `gg-games-test`;
+CREATE DATABASE IF NOT EXISTS `gg-games-test` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `gg-games-test`;
+
+-- La exportación de datos fue deseleccionada.
 
 -- La exportación de datos fue deseleccionada.
 

@@ -14,12 +14,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-
--- Volcando estructura de base de datos para gg-games
-DROP DATABASE IF EXISTS `gg-games-docker`;
-CREATE DATABASE IF NOT EXISTS `gg-games-docker` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `gg-games-docker`;
-
 -- Volcando estructura para tabla gg-games.accounts
 DROP TABLE IF EXISTS `accounts`;
 CREATE TABLE IF NOT EXISTS `accounts` (
@@ -36,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `updatedAt` datetime DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   KEY `fk_userId` (`userId`) USING BTREE,
-  CONSTRAINT `fk_users_acounts` FOREIGN KEY (`userId`) REFERENCES `users` (`id`)
+  CONSTRAINT `fk_acounts_users` FOREIGN KEY (`userId`) REFERENCES `users` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=DYNAMIC;
 
 -- La exportación de datos fue deseleccionada.
@@ -124,7 +118,7 @@ CREATE TABLE IF NOT EXISTS `games` (
   `updatedAt` datetime DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   KEY `fk_gamerId` (`gamerId`),
-  CONSTRAINT `fk_gamers_games` FOREIGN KEY (`gamerId`) REFERENCES `gamers` (`id`)
+  CONSTRAINT `fk_games_gamers` FOREIGN KEY (`gamerId`) REFERENCES `gamers` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci ROW_FORMAT=DYNAMIC;
 
 -- La exportación de datos fue deseleccionada.
@@ -134,7 +128,7 @@ DROP TABLE IF EXISTS `localities`;
 CREATE TABLE IF NOT EXISTS `localities` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `provincesId` int NOT NULL,
+  `provinceId` int NOT NULL,
   `default` tinyint NOT NULL DEFAULT (0),
   `order` tinyint NOT NULL DEFAULT '0',
   `active` tinyint NOT NULL DEFAULT '1',
@@ -142,7 +136,9 @@ CREATE TABLE IF NOT EXISTS `localities` (
   `createdAt` datetime DEFAULT NULL,
   `updatedBy` int NOT NULL DEFAULT '0',
   `updatedAt` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `fk_provincieId` (`provinceId`) USING BTREE,
+  CONSTRAINT `fk_localities_provincies` FOREIGN KEY (`provinceId`) REFERENCES `provinces` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- La exportación de datos fue deseleccionada.
@@ -168,7 +164,7 @@ CREATE TABLE IF NOT EXISTS `phone_descriptions` (
 DROP TABLE IF EXISTS `provinces`;
 CREATE TABLE IF NOT EXISTS `provinces` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `countriesId` int NOT NULL,
+  `countrieId` int NOT NULL,
   `name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   `default` tinyint NOT NULL DEFAULT (0),
   `order` tinyint NOT NULL DEFAULT '0',
@@ -177,7 +173,9 @@ CREATE TABLE IF NOT EXISTS `provinces` (
   `createdAt` datetime DEFAULT NULL,
   `updatedBy` int NOT NULL DEFAULT '0',
   `updatedAt` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `fk_provincies_countries` (`countrieId`),
+  CONSTRAINT `fk_provincies_countries` FOREIGN KEY (`countrieId`) REFERENCES `countries` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- La exportación de datos fue deseleccionada.
@@ -212,7 +210,7 @@ CREATE TABLE IF NOT EXISTS `scores` (
   `updatedAt` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_gameId` (`gameId`) USING BTREE,
-  CONSTRAINT `fk_games_gamers` FOREIGN KEY (`gameId`) REFERENCES `countries` (`id`)
+  CONSTRAINT `fk_scores_games` FOREIGN KEY (`gameId`) REFERENCES `countries` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- La exportación de datos fue deseleccionada.
