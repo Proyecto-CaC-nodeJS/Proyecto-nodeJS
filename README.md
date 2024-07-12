@@ -104,7 +104,8 @@
 https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/  
 ├── back/   <-- Directorio para el Back-End  
 ├── front/  <-- Directorio para el Front-End  
-└── README.md
+├── README.md  
+└── readme.md
 
 ## Desarrollador/es
 Gianfranco Bambach, Silvio Jorda
