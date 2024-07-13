@@ -15,7 +15,7 @@
   sin tener que buscar en múltiples sitios web.
 
 ## Tecnologías
-### FrontEnd:
+### Frontend:
 <table align="center">
   <tr width="100%">
     <td align="center">
@@ -36,7 +36,7 @@
   </tr>
 </table>
 
-### BackEnd:
+### Backend:
 <table align="center">
   <tr width="100%">
     <td align="center">
@@ -75,7 +75,7 @@
   </tr>
 </table>
 
-## Documentación:
+# Documentación:
 - <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"> Documentación de HTML5 </a>
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> Documentación de CSS3 </a>
@@ -100,12 +100,100 @@
   
 - <a href="https://dev.mysql.com/doc/workbench/en/" target="_blank"> Documentación de Workbench </a>
 
-## Directorios
+# Directorios
 https://github.com/Proyecto-CaC-nodeJS/Proyecto-nodeJS/  
-├── back/   <-- Directorio para el Back-End  
-├── front/  <-- Directorio para el Front-End  
+├── back/   <-- Directorio para el Back-end  
+├── front/  <-- Directorio para el Front-end  
 ├── README.md  
-└── readme.md
+└── readme.txt
+
+# Backend
+
+## Instalación
+
+1. Ir a la carpeta `back` con el siguiente comando:
+    ```bash
+    cd back
+    ```
+
+2. Ejecutar el siguiente comando para instalar las dependencias:
+    ```bash
+    npm install
+    ```
+    - Esto instalara las dependencias que se encuentran en el archivo pakage.json
+
+3. Ejecutar el siguiente comando para instalar nodemon de forma global:
+    ```bash
+    npm install nodemon -g
+    ```
+
+## Servidor
+
+- De ser necesario, se adjuntan los scripts de creación de las bases de datos correspondientes a cada entorno en la carpeta `info/sqls`.
+- En esta carpeta se encuentran los scripts necesarios para crear las bases de datos en forma conjunta o separadas.
+
+- Ejecutar el siguiente comando en la carpeta `back` para que el servidor se ejecute en modo local:
+    ```bash
+    node index.js
+    ```
+  - Este comando ejecutará el servidor en modo local sin parámetros adicionales.
+
+o tambien se puede ejecutar
+
+- Ejecutar el siguiente comando para ejecutar el servidor en el entorno de desarrollo:
+    ```bash
+    npm run start-dev
+    ```
+  - Este comando ejecutará el servidor en el entorno de desarrollo.
+
+- Cada entorno tiene su base de datos correspondiente.
+
+- Debe considerarse que al modificarse la base de datos, el backend también debe ser modificado.
+
+- Aquí solo se informa un entorno a modo de ejemplo.
+
+# Frontend
+
+## Instalación
+
+1. Ir a la carpeta `front` con el siguiente comando:
+    ```bash
+    cd front
+    ```
+    
+2. Ejecutar el siguiente comando:
+    ```bash
+    npm install
+    ```
+    - Esto instalará las dependencias que se encuentran en el archivo `package.json`.
+
+## Ejecución
+
+1. Abrir la carpeta `front` en Visual Studio Code.
+2. Usar la extensión Live Server o Http Server para ejecutar la página en modo local.
+3. Se puede ejecutar de forma local haciendo doble click en el archivo `index.html` ubicado en la carpeta front.
+
+## Dependencias adicionales
+
+1. Instalar Bootstrap 5.3.0:
+    ```bash
+    npm install bootstrap@5.3.0
+    ```
+
+2. Instalar Axios:
+    ```bash
+    npm install axios
+    ```
+
+3. Instalar DataTables.net y su estilo:
+    ```bash
+    npm install datatables.net datatables.net-dt
+    ```
+
+4. Instalar jQuery, Axios, DataTables.net y su estilo (alternativa que combina varias dependencias):
+    ```bash
+    npm install jquery axios bootstrap@5.3.0 datatables.net datatables.net-dt
+    ```
 
 ## Desarrollador/es
 Gianfranco Bambach, Silvio Jorda
@@ -114,7 +202,7 @@ Gianfranco Bambach, Silvio Jorda
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
 ## Contactos
-  ### Gianfranco
+  ### Gianfranco Bambach
     Email: e-mail    LinkedIn: link
 
   ### Silvio Jorda
